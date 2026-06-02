@@ -36,3 +36,7 @@
 - В `raw/articles/openai-codex-python-sdk-2026-06-02.md` вставлена картинка `../assets/openai-codex-python-sdk-example-2026-06-02.jpg`.
 - В `raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md` вставлена картинка `../assets/revealjs-readme-screenshot-2026-06-02.jpg`.
 - `sha256` обоих raw-файлов пересчитан по обновленному телу.
+
+## [2026-06-02] update | Git synchronization rule
+- Added SCHEMA.md rule: always run `git pull --ff-only` before any work with the base.
+- Added SCHEMA.md rule: after changes, commit and `git push` to `origin/main`.
