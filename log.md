@@ -40,3 +40,12 @@
 ## [2026-06-02] update | Git synchronization rule
 - Added SCHEMA.md rule: always run `git pull --ff-only` before any work with the base.
 - Added SCHEMA.md rule: after changes, commit and `git push` to `origin/main`.
+
+
+## [2026-06-02] ingest | llm-checker local LLM recommendations
+- Captured forwarded post as `raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md`.
+- Copied screenshot asset to `raw/assets/llm-checker-recommend-coding-screenshot-2026-06-02.jpg`.
+- Created `entities/llm-checker.md`.
+- Created `concepts/local-llm-hardware-fit.md`.
+- Updated `concepts/ai-engineering.md` with local-model hardware fit pattern.
+- Updated `index.md`.
