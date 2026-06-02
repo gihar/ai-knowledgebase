@@ -49,3 +49,11 @@
 - Created `concepts/local-llm-hardware-fit.md`.
 - Updated `concepts/ai-engineering.md` with local-model hardware fit pattern.
 - Updated `index.md`.
+
+## [2026-06-02] ingest | Agent abstraction levels and token costs
+- Captured forwarded post as `raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md`.
+- Copied screenshot asset to `raw/assets/agent-abstraction-levels-token-costs-2026-06-02.jpg`.
+- Created `concepts/agent-abstraction-levels.md`.
+- Updated `concepts/ai-engineering.md` with the agent-level scaling pattern.
+- Updated `concepts/agentic-coding-workflows.md` with a link to agent abstraction levels.
+- Updated `index.md`.
