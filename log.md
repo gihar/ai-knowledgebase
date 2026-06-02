@@ -17,3 +17,11 @@
 - Created `entities/revealjs.md`.
 - Created `concepts/ai-engineering.md`.
 - Updated `index.md`.
+
+## [2026-06-02] ingest | OpenAI Codex Python SDK forwarded post
+- Captured forwarded post as `raw/articles/openai-codex-python-sdk-2026-06-02.md`.
+- Copied screenshot asset to `raw/assets/openai-codex-python-sdk-example-2026-06-02.jpg` if available.
+- Created `entities/openai-codex-python-sdk.md`.
+- Created `concepts/agentic-coding-workflows.md`.
+- Updated `concepts/ai-engineering.md` with embedded coding-agent pattern.
+- Updated `index.md`.
