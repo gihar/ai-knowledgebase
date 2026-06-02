@@ -10,23 +10,23 @@ confidence: low
 
 # OpenAI Codex Python SDK
 
-The forwarded source claims OpenAI released a Python SDK for Codex, installable as `openai-codex`, that lets developers embed Codex directly inside Python applications. Because this is a fast-moving release claim captured from a forwarded post rather than an official source page, the current confidence is `low` until verified against OpenAI documentation or the package repository.
+Пересланный источник утверждает, что OpenAI выпустила Python SDK для Codex, устанавливаемый как `openai-codex`, который позволяет встраивать Codex прямо в Python-приложения. Так как это быстро меняющееся утверждение из пересланного поста, а не официальная страница источника, текущая уверенность — `low` до проверки по документации OpenAI или репозиторию пакета.
 
-## Capabilities mentioned in the source
+## Возможности, упомянутые в источнике
 
-The post says the SDK can:
+Пост утверждает, что SDK умеет:
 
-- start new Codex sessions;
-- run individual agent steps;
-- stream progress updates;
-- resume previously created sessions;
-- pass images into sessions;
-- manage access to the sandbox environment;
-- use already configured Codex authorization.
+- запускать новые сессии Codex;
+- выполнять отдельные шаги агента;
+- передавать потоковые обновления о ходе выполнения;
+- возобновлять ранее созданные сессии;
+- передавать изображения в сессии;
+- управлять доступом к sandbox-окружению;
+- использовать уже настроенную авторизацию Codex.
 
-## Example pattern
+## Пример паттерна
 
-The screenshot shows a `Codex` context manager and a writable workspace sandbox:
+На скриншоте показаны context manager `Codex` и sandbox с правом записи в рабочую область:
 
 ```python
 from openai_codex import Codex, Sandbox
@@ -37,24 +37,24 @@ with Codex() as codex:
     print(result.final_response)
 ```
 
-This suggests a workflow where [[agentic-coding-workflows]] can be embedded as Python functions or services rather than invoked through CLI wrappers.
+Это указывает на рабочий процесс, где [[agentic-coding-workflows]] можно встраивать как Python-функции или сервисы, а не запускать через CLI-обертки.
 
-## Why it matters
+## Почему это важно
 
-If verified, the SDK would make Codex easier to compose into internal developer tools, CI assistants, local automation, review bots, and other [[ai-engineering]] systems. The important shift is from "call a coding agent as an external tool" to "orchestrate a coding agent as an application component".
+Если релиз подтвердится, SDK упростит встраивание Codex во внутренние инструменты разработчиков, CI-ассистентов, локальную автоматизацию, review-ботов и другие системы [[ai-engineering]]. Важный сдвиг: от «вызывать агента для разработки как внешний инструмент» к «оркестрировать агента для разработки как компонент приложения».
 
-## Source image
+## Изображение из источника
 
-The forwarded post included a screenshot of a minimal SDK example: `raw/assets/openai-codex-python-sdk-example-2026-06-02.jpg`.
+Пересланный пост включал скриншот минимального примера SDK: `raw/assets/openai-codex-python-sdk-example-2026-06-02.jpg`.
 
-## Open questions
+## Открытые вопросы
 
-- What official documentation, package repository, and changelog confirm the release?
-- What sandbox permissions are available beyond `Sandbox.workspace_write`?
-- How are streaming events represented in the API?
-- How does the SDK authenticate and resume sessions across processes?
+- Какая официальная документация, репозиторий пакета и changelog подтверждают релиз?
+- Какие sandbox-права доступны помимо `Sandbox.workspace_write`?
+- Как потоковые события представлены в API?
+- Как SDK аутентифицируется и возобновляет сессии между процессами?
 
-## Related
+## Связанные страницы
 
 - [[agentic-coding-workflows]]
 - [[ai-engineering]]

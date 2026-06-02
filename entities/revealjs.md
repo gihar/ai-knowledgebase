@@ -10,21 +10,21 @@ confidence: medium
 
 # Reveal.js
 
-Reveal.js is an open-source HTML presentation framework. In the AI-assisted slide-generation workflow, it is useful because the deck can be represented as maintainable HTML/Markdown/CSS/JavaScript rather than an opaque presentation artifact.
+Reveal.js — открытый HTML-фреймворк для презентаций. В рабочем процессе генерации слайдов с помощью AI он полезен тем, что презентацию можно представить как поддерживаемые HTML/Markdown/CSS/JavaScript-файлы, а не как непрозрачный презентационный артефакт.
 
-## Role in AI-generated decks
+## Роль в AI-сгенерированных презентациях
 
-The forwarded source argues that Claude or another LLM can generate Reveal.js slide structure, content, and visual styling while keeping the result compatible with normal software-development practices: Git storage, diffs, templates, code-editor editing, automation, and web publishing.
+Пересланный источник утверждает, что Claude или другая LLM может генерировать структуру, контент и визуальное оформление слайдов Reveal.js, сохраняя результат совместимым с обычными практиками разработки: хранением в Git, diff, шаблонами, редактированием в редакторе кода, автоматизацией и публикацией в вебе.
 
-## Why developers may prefer it
+## Почему разработчикам это может быть удобнее
 
-Reveal.js makes presentations feel like part of a code project. This is especially relevant for [[code-based-presentations]] and [[ai-engineering]] workflows where long-term maintainability matters more than quick one-off visual output.
+Reveal.js делает презентации частью кодового проекта. Это особенно важно для [[code-based-presentations]] и рабочих процессов [[ai-engineering]], где долгосрочная поддерживаемость важнее быстрого одноразового визуального результата.
 
-## Source image
+## Изображение из источника
 
-The forwarded post included a screenshot of the Reveal.js README: `raw/assets/revealjs-readme-screenshot-2026-06-02.jpg`.
+Пересланный пост включал скриншот README Reveal.js: `raw/assets/revealjs-readme-screenshot-2026-06-02.jpg`.
 
-## Related
+## Связанные страницы
 
 - [[code-based-presentations]]
 - [[ai-engineering]]

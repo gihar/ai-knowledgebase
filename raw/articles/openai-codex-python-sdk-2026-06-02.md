@@ -1,10 +1,10 @@
 ---
 source_url: telegram-forwarded-post
 ingested: 2026-06-02
-sha256: a5e341622092f7268c6e11495b7d9bda468a7b6763156ad085dc6e2627f3c866
+sha256: 8ca21d624a11804ce33b9872263204c9f449a49fa6a5cd04765822aa0737c199
 ---
 
-# Forwarded post: OpenAI Codex Python SDK
+# Пересланный пост: OpenAI Codex Python SDK
 
 OpenaAI выпустили Python SDK для Codex 🔥
 
@@ -21,9 +21,11 @@ pip install openai-codex
 
 [Image attached at: /home/user/.hermes/image_cache/img_c60fc19e4376.jpg]
 
-## Screenshot content
+![Пример OpenAI Codex Python SDK](../assets/openai-codex-python-sdk-example-2026-06-02.jpg)
 
-The attached screenshot shows a minimal Python example:
+## Содержимое скриншота
+
+На приложенном скриншоте показан минимальный пример на Python:
 
 ```python
 from openai_codex import Codex, Sandbox

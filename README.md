@@ -1,14 +1,14 @@
 # ai-knowledgebase
 
-LLM Wiki knowledge base for AI/ML, LLMs, AI agents, AI engineering, evaluation, safety, tooling, products, companies, labs, and practical implementation patterns.
+LLM Wiki-база знаний про AI/ML, LLM, AI-агентов, AI-инжиниринг, оценку, безопасность, инструменты, продукты, компании, лаборатории и практические паттерны внедрения.
 
-## Structure
+## Структура
 
-- `SCHEMA.md` — wiki conventions, page schema, and tag taxonomy
-- `index.md` — catalog of wiki pages
-- `log.md` — append-only action log
-- `raw/` — immutable source material and assets
-- `entities/` — notable entities such as tools, frameworks, companies, models
-- `concepts/` — AI concepts and practices
-- `comparisons/` — side-by-side analyses
-- `queries/` — filed answers worth preserving
+- `SCHEMA.md` — wiki-соглашения, схема страниц и таксономия тегов
+- `index.md` — каталог wiki-страниц
+- `log.md` — append-only лог действий
+- `raw/` — неизменяемые исходные материалы и ассеты
+- `entities/` — заметные сущности: инструменты, фреймворки, компании, модели
+- `concepts/` — AI-концепты и практики
+- `comparisons/` — сравнительные анализы
+- `queries/` — сохраненные ответы, которые стоит удержать в базе

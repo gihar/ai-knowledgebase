@@ -1,5 +1,5 @@
 ---
-title: Code-Based Presentations
+title: Презентации как код
 created: 2026-06-02
 updated: 2026-06-02
 type: concept
@@ -8,34 +8,34 @@ sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-
 confidence: medium
 ---
 
-# Code-Based Presentations
+# Презентации как код
 
-Code-based presentations are slide decks stored as normal text/code artifacts (for example HTML, Markdown, CSS, and JavaScript) rather than as opaque PowerPoint files or one-off AI design artifacts.
+Презентации как код — это слайд-деки, которые хранятся как обычные текстовые или кодовые артефакты, например HTML, Markdown, CSS и JavaScript, а не как непрозрачные PowerPoint-файлы или одноразовые AI-артефакты дизайна.
 
-## Why it matters
+## Почему это важно
 
-For AI-assisted work, code-based decks make generated slides maintainable: changes can be reviewed with diffs, versioned in Git, edited in a code editor, templated, and deployed as a website. This aligns presentations with normal [[ai-engineering]] project workflows instead of separating them into external design tools.
+Для работы с помощью AI презентации как код делают сгенерированные слайды поддерживаемыми: изменения можно проверять через diff, версионировать в Git, редактировать в редакторе кода, шаблонизировать и деплоить как сайт. Это связывает презентации с обычными рабочими процессами проекта в [[ai-engineering]], вместо того чтобы выносить их во внешние инструменты дизайна.
 
-## Practical pattern
+## Практический паттерн
 
-A useful pattern is to ask an LLM such as Claude to generate a [[revealjs]] presentation using HTML/Markdown sources. The model can draft structure, content, and styling, while humans retain control over templates, animations, publication, and later edits.
+Полезный паттерн — попросить LLM, например Claude, сгенерировать презентацию [[revealjs]] на основе HTML/Markdown. Модель может набросать структуру, контент и стили, а человек сохраняет контроль над шаблонами, анимациями, публикацией и последующими правками.
 
-## Benefits captured from the source
+## Преимущества из источника
 
-- Source files are text.
-- The deck can live in Git.
-- Developers can edit it in any code editor.
-- Styles and animations are fully controllable.
-- The presentation can be published as a normal website.
-- The deck becomes part of the project rather than a standalone artifact living in PowerPoint or an AI design tool.
+- Исходные файлы представлены текстом.
+- Презентация может храниться в Git.
+- Разработчики могут редактировать ее в любом редакторе кода.
+- Стили и анимации полностью контролируемы.
+- Презентацию можно публиковать как обычный сайт.
+- Слайд-дека становится частью проекта, а не отдельным артефактом в PowerPoint или AI-инструменте дизайна.
 
-## Open questions
+## Открытые вопросы
 
-- When is a visual AI design tool still preferable to a code-based deck?
-- What default Reveal.js template should be used for AI-generated project presentations?
-- How should speaker notes and PDF export be standardized?
+- Когда визуальный AI-инструмент дизайна все еще предпочтительнее презентации как кода?
+- Какой шаблон Reveal.js по умолчанию стоит использовать для AI-сгенерированных проектных презентаций?
+- Как стандартизировать заметки докладчика и экспорт в PDF?
 
-## Related
+## Связанные страницы
 
 - [[revealjs]]
 - [[ai-engineering]]

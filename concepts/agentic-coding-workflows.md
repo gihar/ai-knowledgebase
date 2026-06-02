@@ -1,5 +1,5 @@
 ---
-title: Agentic Coding Workflows
+title: Агентные рабочие процессы разработки
 created: 2026-06-02
 updated: 2026-06-02
 type: concept
@@ -8,31 +8,31 @@ sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md]
 confidence: medium
 ---
 
-# Agentic Coding Workflows
+# Агентные рабочие процессы разработки
 
-Agentic coding workflows use an AI coding agent to inspect code, run or reason about tests, diagnose root causes, propose fixes, and sometimes apply changes inside a controlled workspace.
+Агентные рабочие процессы разработки используют AI-агента для инспекции кода, запуска или анализа тестов, диагностики первопричин, предложения исправлений и иногда применения изменений внутри контролируемой рабочей области.
 
-## Embedded-agent pattern
+## Паттерн встроенного агента
 
-The forwarded Codex SDK post points to an embedded-agent pattern: instead of wrapping a CLI, a Python application can start or resume a Codex session, run a step, receive streaming updates, pass images, and control sandbox permissions through an SDK. If the release is verified, [[openai-codex-python-sdk]] becomes a concrete tool for this pattern.
+Пересланный пост про Codex SDK указывает на паттерн встроенного агента: вместо обертки вокруг CLI Python-приложение может через SDK запускать или возобновлять сессию Codex, выполнять шаг, получать потоковые обновления, передавать изображения и управлять правами sandbox. Если релиз подтвердится, [[openai-codex-python-sdk]] станет конкретным инструментом для этого паттерна.
 
-## Why it matters
+## Почему это важно
 
-Embedding a coding agent directly in Python can make coding automation more composable:
+Встраивание агента для разработки прямо в Python может сделать автоматизацию разработки более компонуемой:
 
-- internal tools can expose coding-agent actions as normal application flows;
-- CI or developer-platform services can orchestrate sessions programmatically;
-- sandbox policy can be part of the application design;
-- session state and streaming updates can be integrated into custom UIs or bots.
+- внутренние инструменты могут показывать действия агента для разработки как обычные сценарии приложения;
+- CI или сервисы developer platform могут программно оркестрировать сессии;
+- политика sandbox может стать частью дизайна приложения;
+- состояние сессий и потоковые обновления можно встроить в кастомные UI или ботов.
 
-## Design considerations
+## Вопросы дизайна
 
-- Sandbox access should be explicit and least-privilege.
-- Long-running sessions need durable IDs and resumability.
-- Streaming updates should be structured enough for logs, UI progress, and alerting.
-- Any automatic write mode needs review gates before merge or deployment.
+- Доступ к sandbox должен быть явным и минимально необходимым.
+- Долгим сессиям нужны устойчивые идентификаторы и возможность возобновления.
+- Потоковые обновления должны быть достаточно структурированными для логов, UI-прогресса и alerting.
+- Любой автоматический режим записи требует review gates перед merge или deployment.
 
-## Related
+## Связанные страницы
 
 - [[openai-codex-python-sdk]]
 - [[ai-engineering]]

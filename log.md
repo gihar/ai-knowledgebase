@@ -25,3 +25,14 @@
 - Created `concepts/agentic-coding-workflows.md`.
 - Updated `concepts/ai-engineering.md` with embedded coding-agent pattern.
 - Updated `index.md`.
+
+## [2026-06-02] update | Russian article content rule
+- Проверены текущие wiki-страницы и описания в `index.md` на соответствие правилу русского контента.
+- Переведены содержательные описания в `entities/`, `concepts/` и `index.md` на русский язык с сохранением имен технологий, команд, кода и wiki-ссылок.
+- Переведены служебные подписи в `raw/articles/`; исходный текст постов и код сохранены, `sha256` пересчитан по обновленному телу файлов.
+
+## [2026-06-02] update | Image embeds in raw articles
+- Добавлено правило: изображения источников сохраняются в `raw/assets/` и вставляются в `raw/articles/` через Markdown image embed.
+- В `raw/articles/openai-codex-python-sdk-2026-06-02.md` вставлена картинка `../assets/openai-codex-python-sdk-example-2026-06-02.jpg`.
+- В `raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md` вставлена картинка `../assets/revealjs-readme-screenshot-2026-06-02.jpg`.
+- `sha256` обоих raw-файлов пересчитан по обновленному телу.

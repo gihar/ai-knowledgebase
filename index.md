@@ -1,23 +1,23 @@
-# Wiki Index
+# Индекс Wiki
 
-> Content catalog. Every wiki page is listed under its type with a one-line summary.
-> Read this first to find relevant pages for any query.
-> Last updated: 2026-06-02 | Total pages: 5
+> Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
+> Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
+> Последнее обновление: 2026-06-02 | Всего страниц: 5
 
-## Entities
-<!-- Alphabetical within section -->
-- [[openai-codex-python-sdk]] — Claimed Python SDK for embedding Codex sessions, agent steps, streaming updates, images, and sandbox control in Python apps.
-- [[revealjs]] — Open-source HTML presentation framework useful for maintainable, AI-generated slide decks.
+## Сущности
+<!-- Внутри раздела — по алфавиту -->
+- [[openai-codex-python-sdk]] — заявленный Python SDK для встраивания сессий Codex, шагов агента, потоковых обновлений, изображений и управления sandbox в Python-приложения.
+- [[revealjs]] — открытый HTML-фреймворк для презентаций, полезный для поддерживаемых слайдов, сгенерированных с помощью AI.
 
-## Concepts
-- [[agentic-coding-workflows]] — Coding-agent workflows for code inspection, tests, diagnosis, fixes, and controlled sandbox automation.
-- [[ai-engineering]] — Integrating AI systems and AI-generated artifacts into maintainable software workflows.
-- [[code-based-presentations]] — Slide decks stored as text/code artifacts for Git, diffs, automation, and web publishing.
+## Концепты
+- [[agentic-coding-workflows]] — рабочие процессы агентов для разработки: инспекция кода, тесты, диагностика, исправления и контролируемая sandbox-автоматизация.
+- [[ai-engineering]] — интеграция AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
+- [[code-based-presentations]] — презентации, хранящиеся как текстовые или кодовые артефакты для Git, diff, автоматизации и публикации в вебе.
 
-## Comparisons
+## Сравнения
 
-## Queries
+## Запросы
 
-## Raw Sources
-- [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — Forwarded post claiming OpenAI released a Python SDK for Codex with sessions, streaming, images, and sandbox controls.
-- [revealjs-maintainable-ai-generated-presentations-2026-06-02](raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md) — Forwarded post arguing for Reveal.js instead of AI design tools for maintainable presentations.
+## Исходники
+- [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — пересланный пост с утверждением, что OpenAI выпустила Python SDK для Codex с сессиями, потоковыми обновлениями, изображениями и управлением sandbox.
+- [revealjs-maintainable-ai-generated-presentations-2026-06-02](raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md) — пересланный пост о том, почему Reveal.js лучше AI-инструментов дизайна для поддерживаемых презентаций.

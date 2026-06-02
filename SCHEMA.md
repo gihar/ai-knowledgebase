@@ -1,28 +1,30 @@
-# Wiki Schema
+# Схема Wiki
 
-## Domain
-AI knowledge base: artificial intelligence, machine learning, large language models, autonomous agents, AI engineering, evaluation, safety/alignment, inference, training, tooling, products, companies, labs, and practical implementation patterns.
+## Домен
+База знаний про AI: искусственный интеллект, машинное обучение, большие языковые модели, автономных агентов, AI-инжиниринг, оценку, безопасность/alignment, inference, обучение, tooling, продукты, компании, лаборатории и практические паттерны внедрения.
 
-## Conventions
-- File names: lowercase, hyphens, no spaces (e.g., `transformer-architecture.md`).
-- Every wiki page starts with YAML frontmatter.
-- Use `[[wikilinks]]` to link between pages (minimum 2 outbound links per page where meaningful).
-- When updating a page, always bump the `updated` date.
-- Every new page must be added to `index.md` under the correct section.
-- Every action must be appended to `log.md`.
-- Raw sources in `raw/` are immutable: never rewrite source bodies after ingest; corrections go into Layer 2 wiki pages.
-- Provenance markers: on pages synthesizing 3+ sources, append `^[raw/articles/source-file.md]` or `^[raw/papers/source-file.md]` after paragraphs whose claims trace to a specific source.
-- Prefer concise, source-grounded synthesis over generic explanations.
-- For fast-moving facts (model releases, benchmark scores, prices, API limits), mark confidence and include source dates.
+## Соглашения
+- Имена файлов: lowercase, hyphens, без пробелов, например `transformer-architecture.md`.
+- Каждая wiki-страница начинается с YAML frontmatter.
+- Используй `[[wikilinks]]` для связей между страницами: минимум 2 исходящие ссылки на страницу, где это осмысленно.
+- При обновлении страницы всегда обновляй дату `updated`.
+- Каждую новую страницу нужно добавить в `index.md` в правильный раздел.
+- Каждое действие нужно добавлять в `log.md`.
+- Исходники в `raw/` неизменяемы: не переписывай тело источника после ingest; исправления вноси в wiki-страницы Layer 2.
+- Если у источника есть изображения, сохраняй их в `raw/assets/` и вставляй в `raw/articles/` через Markdown image embed с относительным путем `../assets/image-name.ext`.
+- Контент статей, краткие описания, описания в индексе и wiki-синтез должны быть написаны на русском языке. Оригинальные цитаты, код, команды, сообщения об ошибках и имена собственные сохраняй на языке источника, когда это нужно.
+- Маркеры происхождения: на страницах, синтезирующих 3+ источника, добавляй `^[raw/articles/source-file.md]` или `^[raw/papers/source-file.md]` после абзацев, чьи утверждения восходят к конкретному источнику.
+- Предпочитай краткий синтез, основанный на источниках, а не общие объяснения.
+- Для быстро меняющихся фактов, например релизов моделей, benchmark scores, цен и API limits, отмечай уверенность и указывай даты источников.
 
 ## Frontmatter
 ```yaml
 ---
-title: Page Title
+title: Название страницы
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: entity | concept | comparison | query | summary
-tags: [from taxonomy below]
+tags: [из таксономии ниже]
 sources: [raw/articles/source-name.md]
 confidence: high | medium | low
 contested: true
@@ -30,74 +32,74 @@ contradictions: [other-page-slug]
 ---
 ```
 
-## raw/ Frontmatter
-Raw sources must include:
+## Frontmatter для raw/
+Исходники должны включать:
 
 ```yaml
 ---
 source_url: https://example.com/article
 ingested: YYYY-MM-DD
-sha256: <hex digest of the raw content below the frontmatter>
+sha256: <hex digest тела файла ниже frontmatter>
 ---
 ```
 
-Compute SHA256 over the body only, not over the frontmatter.
+Считай SHA256 только по телу файла, без frontmatter.
 
-## Tag Taxonomy
-Use only tags listed here. Add new tags here before using them.
+## Таксономия тегов
+Используй только теги из этого списка. Перед использованием нового тега сначала добавь его сюда.
 
-- Models and architectures: model, architecture, transformer, multimodal, reasoning, embedding, diffusion, speech, vision
-- Training and data: training, fine-tuning, rlhf, dpo, grpo, data, synthetic-data, optimization, distributed-training
-- Inference and deployment: inference, serving, quantization, caching, latency, gpu, edge, api, cost
-- Evaluation: benchmark, eval, red-team, reliability, hallucination, observability
-- Agents and tools: agent, tool-use, workflow, automation, mcp, rag, memory, planning
-- Safety and governance: alignment, safety, security, privacy, policy, regulation, ethics
-- Products and organizations: company, lab, open-source, product, platform, funding
+- Модели и архитектуры: model, architecture, transformer, multimodal, reasoning, embedding, diffusion, speech, vision
+- Обучение и данные: training, fine-tuning, rlhf, dpo, grpo, data, synthetic-data, optimization, distributed-training
+- Inference и deployment: inference, serving, quantization, caching, latency, gpu, edge, api, cost
+- Оценка: benchmark, eval, red-team, reliability, hallucination, observability
+- Агенты и инструменты: agent, tool-use, workflow, automation, mcp, rag, memory, planning
+- Безопасность и governance: alignment, safety, security, privacy, policy, regulation, ethics
+- Продукты и организации: company, lab, open-source, product, platform, funding
 - Software engineering: ai-engineering, architecture-pattern, prompt-engineering, testing, devtools
 - Meta: comparison, timeline, controversy, prediction, glossary, query, summary
 
-## Page Thresholds
-- Create a page when an entity/concept appears in 2+ sources OR is central to one important source.
-- Add to an existing page when a source mentions something already covered.
-- Do not create pages for passing mentions, minor details, or items outside the AI domain.
-- Split a page when it exceeds ~200 lines.
-- Archive a page when its content is fully superseded: move it to `_archive/`, remove from index, and update backlinks.
+## Пороги создания страниц
+- Создавай страницу, когда сущность или концепт встречается в 2+ источниках или является центральной темой одного важного источника.
+- Добавляй информацию на существующую страницу, когда источник упоминает уже описанную тему.
+- Не создавай страницы для мимолетных упоминаний, второстепенных деталей или тем вне AI-домена.
+- Разделяй страницу, когда она превышает примерно 200 строк.
+- Архивируй страницу, когда ее контент полностью устарел: перемести в `_archive/`, убери из индекса и обнови backlinks.
 
-## Entity Pages
-One page per notable entity (model, company, lab, product, framework, dataset, benchmark, person if needed). Include:
-- Overview / what it is
-- Key facts and dates
-- Relationships to other entities via `[[wikilinks]]`
-- Source references
-- Open questions / caveats for fast-moving claims
+## Страницы сущностей
+Одна страница на заметную сущность: модель, компанию, лабораторию, продукт, framework, dataset, benchmark, персону при необходимости. Включай:
+- обзор / что это;
+- ключевые факты и даты;
+- связи с другими сущностями через `[[wikilinks]]`;
+- ссылки на источники;
+- открытые вопросы / caveats для быстро меняющихся утверждений.
 
-## Concept Pages
-One page per concept or topic. Include:
-- Definition / explanation
-- Why it matters
-- Current state of knowledge
-- Practical implications
-- Open questions or debates
-- Related concepts via `[[wikilinks]]`
+## Страницы концептов
+Одна страница на концепт или тему. Включай:
+- определение / объяснение;
+- почему это важно;
+- текущее состояние знаний;
+- практические последствия;
+- открытые вопросы или дискуссии;
+- связанные концепты через `[[wikilinks]]`.
 
-## Comparison Pages
-Side-by-side analyses. Include:
-- What is being compared and why
-- Comparison dimensions (tables preferred in markdown)
-- Verdict or synthesis
-- Sources and confidence
+## Страницы сравнений
+Сравнительный анализ. Включай:
+- что сравнивается и почему;
+- измерения сравнения: таблицы в markdown предпочтительны;
+- вывод или синтез;
+- источники и уверенность.
 
-## Query Pages
-Use for valuable answers that would be painful to re-derive. Include:
-- User question / research question
-- Short answer
-- Evidence and links to wiki pages
-- Follow-up questions
+## Страницы запросов
+Используй для ценных ответов, которые было бы сложно получить заново. Включай:
+- вопрос пользователя / исследовательский вопрос;
+- краткий ответ;
+- доказательства и ссылки на wiki-страницы;
+- последующие вопросы.
 
-## Update Policy
-When new information conflicts with existing content:
-1. Check source dates and publication context.
-2. If newer data supersedes older data, preserve important historical context with dates.
-3. If genuinely contradictory, note both positions with dates and sources.
-4. Mark frontmatter with `contested: true` and/or `contradictions: [page-slug]`.
-5. Flag unresolved contradictions in lint reports.
+## Политика обновлений
+Когда новая информация конфликтует с существующим контентом:
+1. Проверь даты источников и контекст публикации.
+2. Если новые данные заменяют старые, сохрани важный исторический контекст с датами.
+3. Если противоречие настоящее, зафиксируй обе позиции с датами и источниками.
+4. Пометь frontmatter через `contested: true` и/или `contradictions: [page-slug]`.
+5. Отмечай нерешенные противоречия в lint-отчетах.

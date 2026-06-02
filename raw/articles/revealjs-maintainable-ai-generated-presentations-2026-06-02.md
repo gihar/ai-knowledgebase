@@ -1,10 +1,10 @@
 ---
 source_url: telegram-forwarded-post
 ingested: 2026-06-02
-sha256: 867ce3668c8eae1ca58b4461a55b01b4451236cc5f30948fccac9db505b234a4
+sha256: 5a8d63a2e7938083037df356481e5e74bb71b9de51bb0833224f0edadf509349
 ---
 
-# Forwarded post: Reveal.js for maintainable AI-generated presentations
+# Пересланный пост: Reveal.js для поддерживаемых AI-сгенерированных презентаций
 
 Мне кажется, многие зря используют Claude Design для создания презентаций.
 
@@ -31,3 +31,5 @@ Claude отлично справляется с генерацией струк�
 100% опенсорс
 
 [Image attached at: /home/user/.hermes/image_cache/img_b8c2e048f70e.jpg]
+
+![Скриншот README Reveal.js](../assets/revealjs-readme-screenshot-2026-06-02.jpg)

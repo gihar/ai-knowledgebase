@@ -1,5 +1,5 @@
 ---
-title: AI Engineering
+title: AI-инжиниринг
 created: 2026-06-02
 updated: 2026-06-02
 type: concept
@@ -8,19 +8,19 @@ sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-
 confidence: medium
 ---
 
-# AI Engineering
+# AI-инжиниринг
 
-AI engineering is the practice of integrating AI systems and AI-generated artifacts into maintainable software workflows.
+AI-инжиниринг — практика интеграции AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
 
-## Example: presentations as project artifacts
+## Пример: презентации как артефакты проекта
 
-The Reveal.js presentation workflow is a small but concrete example of AI engineering: instead of asking an AI design tool to produce a standalone deck, the user asks an LLM to generate source-controlled HTML/Markdown slides. This makes the output reviewable, editable, automatable, and publishable like normal code.
+Рабочий процесс презентаций на Reveal.js — небольшой, но конкретный пример AI-инжиниринга: вместо того чтобы просить AI-инструмент дизайна создать отдельную презентацию, пользователь просит LLM сгенерировать HTML/Markdown-слайды под контроль версий. Это делает результат проверяемым, редактируемым, автоматизируемым и публикуемым как обычный код.
 
-## Example: embedded coding agents
+## Пример: встроенные агенты для разработки
 
-The forwarded post about [[openai-codex-python-sdk]] describes a possible shift from invoking a coding agent through CLI wrappers to embedding Codex sessions directly inside Python applications. That pattern fits [[agentic-coding-workflows]] because the surrounding product can manage sessions, streaming updates, images, and sandbox permissions as part of normal application logic.
+Пересланный пост про [[openai-codex-python-sdk]] описывает возможный сдвиг от вызова агента для разработки через CLI-обертки к встраиванию сессий Codex прямо в Python-приложения. Этот паттерн подходит для [[agentic-coding-workflows]], потому что окружающий продукт может управлять сессиями, потоковыми обновлениями, изображениями и правами sandbox как частью обычной логики приложения.
 
-## Related
+## Связанные страницы
 
 - [[agentic-coding-workflows]]
 - [[code-based-presentations]]
