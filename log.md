@@ -65,3 +65,12 @@
 - Updated `concepts/agentic-coding-workflows.md` with CLI/TUI coding agent pattern.
 - Updated `concepts/ai-engineering.md` with OpenCode as developer workflow tooling.
 - Updated `index.md`.
+
+
+## [2026-06-03] ingest | Anthropic ant CLI for Claude Platform
+- Captured forwarded post as `raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md`.
+- Copied screenshot asset to `raw/assets/ant-cli-auth-login-2026-06-03.jpg`.
+- Created `entities/ant-cli.md`.
+- Updated `concepts/agentic-coding-workflows.md` with API-first CLI / Managed Agents pattern.
+- Updated `concepts/ai-engineering.md` with Claude Platform CLI bridge pattern.
+- Updated `index.md`.

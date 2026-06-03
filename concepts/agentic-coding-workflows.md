@@ -4,7 +4,7 @@ created: 2026-06-02
 updated: 2026-06-03
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md]
 confidence: medium
 ---
 
@@ -19,6 +19,10 @@ confidence: medium
 ## CLI/TUI coding agents
 
 [[opencode]] фиксирует другой вариант агентного workflow: не встроенный SDK, а автономный CLI/TUI-инструмент, который работает в репозитории, читает контекст, меняет файлы, запускает команды и подходит для bounded-задач вроде исправления бага, добавления тестов или PR review.
+
+## API-first CLI for managed agents
+
+[[ant-cli]] описывает паттерн, где агентная платформа управляется через CLI: API-запросы можно собирать в shell/YAML, результаты передавать через пайпы, а конфигурации Managed Agents хранить в Git и синхронизировать из CI. Это расширяет [[agentic-coding-workflows]] от локальных кодовых агентов к управляемым платформенным агентам с трейсами сессий, событиями и инструментальными вызовами.
 
 ## Почему это важно
 
@@ -42,6 +46,7 @@ confidence: medium
 
 ## Связанные страницы
 
+- [[ant-cli]]
 - [[opencode]]
 - [[openai-codex-python-sdk]]
 - [[ai-engineering]]
