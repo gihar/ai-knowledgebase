@@ -57,3 +57,11 @@
 - Updated `concepts/ai-engineering.md` with the agent-level scaling pattern.
 - Updated `concepts/agentic-coding-workflows.md` with a link to agent abstraction levels.
 - Updated `index.md`.
+
+
+## [2026-06-03] ingest | OpenCode AI coding agent
+- Captured conversation answer as `raw/articles/opencode-ai-coding-agent-2026-06-03.md`.
+- Created `entities/opencode.md`.
+- Updated `concepts/agentic-coding-workflows.md` with CLI/TUI coding agent pattern.
+- Updated `concepts/ai-engineering.md` with OpenCode as developer workflow tooling.
+- Updated `index.md`.

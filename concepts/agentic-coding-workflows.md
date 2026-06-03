@@ -1,10 +1,10 @@
 ---
 title: Агентные рабочие процессы разработки
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md]
 confidence: medium
 ---
 
@@ -15,6 +15,10 @@ confidence: medium
 ## Паттерн встроенного агента
 
 Пересланный пост про Codex SDK указывает на паттерн встроенного агента: вместо обертки вокруг CLI Python-приложение может через SDK запускать или возобновлять сессию Codex, выполнять шаг, получать потоковые обновления, передавать изображения и управлять правами sandbox. Если релиз подтвердится, [[openai-codex-python-sdk]] станет конкретным инструментом для этого паттерна.
+
+## CLI/TUI coding agents
+
+[[opencode]] фиксирует другой вариант агентного workflow: не встроенный SDK, а автономный CLI/TUI-инструмент, который работает в репозитории, читает контекст, меняет файлы, запускает команды и подходит для bounded-задач вроде исправления бага, добавления тестов или PR review.
 
 ## Почему это важно
 
@@ -38,6 +42,7 @@ confidence: medium
 
 ## Связанные страницы
 
+- [[opencode]]
 - [[openai-codex-python-sdk]]
 - [[ai-engineering]]
 - [[agent-abstraction-levels]]
