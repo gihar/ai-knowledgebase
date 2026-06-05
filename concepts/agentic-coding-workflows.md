@@ -1,10 +1,10 @@
 ---
 title: Агентные рабочие процессы разработки
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-06-05
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md]
 confidence: medium
 ---
 
@@ -19,6 +19,10 @@ confidence: medium
 ## CLI/TUI coding agents
 
 [[opencode]] фиксирует другой вариант агентного workflow: не встроенный SDK, а автономный CLI/TUI-инструмент, который работает в репозитории, читает контекст, меняет файлы, запускает команды и подходит для bounded-задач вроде исправления бага, добавления тестов или PR review.
+
+## Проектные правила как часть агентного workflow
+
+Новая заметка по [[opencode]] уточняет, что «системный промпт» для coding agent часто лучше оформлять не как разовый CLI-флаг, а как слой правил и agent-конфигурации. `AGENTS.md` делает проектные нормы видимыми агенту, `~/.config/opencode/AGENTS.md` хранит личные глобальные предпочтения, `opencode.json` подключает дополнительные instruction-файлы, а `~/.config/opencode/agents/*.md` задает специализированные режимы с permissions. Для [[ai-engineering]] это важный паттерн: поведение агента версионируется и проверяется рядом с кодом, а не живет только в памяти пользователя или в одноразовом prompt.
 
 ## API-first CLI for managed agents
 

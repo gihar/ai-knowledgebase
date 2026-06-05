@@ -1,10 +1,10 @@
 ---
 title: OpenCode
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-05
 type: entity
 tags: [agent, devtools, open-source, ai-engineering, automation]
-sources: [raw/articles/opencode-ai-coding-agent-2026-06-03.md]
+sources: [raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md]
 confidence: medium
 ---
 
@@ -39,6 +39,22 @@ brew install anomalyco/tap/opencode
 ```bash
 opencode auth login
 ```
+
+## Конфигурация правил и агентов
+
+Для настройки поведения [[opencode]] источник фиксирует несколько уровней правил:
+
+- проектные инструкции в `AGENTS.md` в корне репозитория; TUI-команда `/init` может сгенерировать или обновить этот файл после анализа проекта;
+- глобальные инструкции для всех проектов в `~/.config/opencode/AGENTS.md`;
+- дополнительные instruction-файлы через `instructions` в `opencode.json`, например `CONTRIBUTING.md`, `docs/guidelines.md` или `.cursor/rules/*.md`;
+- отдельные агенты в `~/.config/opencode/agents/*.md`, где frontmatter задает описание, режим, температуру и permissions, а тело файла выступает как инструкция агента;
+- prompt-файлы для конкретных агентов через `opencode.json`, например `"prompt": "{file:./prompts/code-review.txt}"`.
+
+Практический вывод: для обычной настройки поведения OpenCode лучше начинать с `AGENTS.md`, для постоянных личных предпочтений — с глобального `~/.config/opencode/AGENTS.md`, а для специализированных режимов вроде strict code review — с отдельного agent-файла. Это связывает OpenCode с [[agentic-coding-workflows]] как с инструментом, где правила проекта и permissions становятся частью операционного контура агента.
+
+## Приоритет инструкций и fallback
+
+Если в проекте есть и `AGENTS.md`, и `CLAUDE.md`, OpenCode должен брать `AGENTS.md`. `CLAUDE.md` используется как fallback: локально — если нет проектного `AGENTS.md`, глобально — через `~/.claude/CLAUDE.md`, если нет `~/.config/opencode/AGENTS.md`. Для OpenCode предпочтительны нативные файлы `AGENTS.md`, `~/.config/opencode/AGENTS.md`, `opencode.json` и `~/.config/opencode/agents/*.md`.
 
 ## Практический смысл
 

@@ -1,10 +1,10 @@
 ---
 title: AI-инжиниринг
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-06-05
 type: concept
 tags: [ai-engineering, workflow, devtools, automation]
-sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md, raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md]
+sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md, raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md]
 confidence: medium
 ---
 
@@ -23,6 +23,10 @@ AI-инжиниринг — практика интеграции AI-систе�
 ## Пример: CLI/TUI coding agent
 
 [[opencode]] показывает практический слой AI-инжиниринга для разработки: агент запускается как инструмент developer workflow, получает задачу на естественном языке и работает с проектом через терминал, файлы и команды. Это полезно для bounded-задач, PR review и параллельной работы в отдельных workdir/worktree.
+
+## Пример: правила проекта для coding agent
+
+Дополнение про [[opencode]] показывает практику, где инструкции агенту становятся частью репозитория или глобальной конфигурации: `AGENTS.md`, `opencode.json` и agent-файлы в `~/.config/opencode/agents/`. Это снижает зависимость от одноразовых prompt и делает [[agentic-coding-workflows]] воспроизводимее: язык ответа, политика тестов, запрет destructive-команд и режимы review можно хранить как обычные текстовые артефакты.
 
 ## Пример: API/CLI bridge для Claude Platform
 

@@ -74,3 +74,10 @@
 - Updated `concepts/agentic-coding-workflows.md` with API-first CLI / Managed Agents pattern.
 - Updated `concepts/ai-engineering.md` with Claude Platform CLI bridge pattern.
 - Updated `index.md`.
+
+## [2026-06-05] ingest | OpenCode rules and agents config
+- Captured Telegram note as `raw/articles/opencode-rules-agents-config-2026-06-05.md`.
+- Updated `entities/opencode.md` with AGENTS.md, `opencode.json`, custom agents, prompt-file and Claude fallback notes.
+- Updated `concepts/agentic-coding-workflows.md` with project rules as part of the agent workflow.
+- Updated `concepts/ai-engineering.md` with reproducible coding-agent instruction artifacts.
+- Updated `index.md`.
