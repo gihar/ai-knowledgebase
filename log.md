@@ -81,3 +81,12 @@
 - Updated `concepts/agentic-coding-workflows.md` with project rules as part of the agent workflow.
 - Updated `concepts/ai-engineering.md` with reproducible coding-agent instruction artifacts.
 - Updated `index.md`.
+
+## [2026-06-05] ingest | AI agent orchestration vs execution
+- Captured Telegram post as `raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md`.
+- Copied attached image to `raw/assets/ai-agent-orchestration-vs-execution-2026-06-05.jpg`.
+- Created `concepts/ai-agent-orchestration.md`.
+- Updated `concepts/agentic-coding-workflows.md` with orchestrator/executor role split.
+- Updated `concepts/ai-engineering.md` with orchestration as work-cycle closure.
+- Updated `concepts/agent-abstraction-levels.md` with orchestration tax notes.
+- Updated `index.md`.

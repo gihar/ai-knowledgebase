@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-06-05 | Всего страниц: 10
+> Последнее обновление: 2026-06-05 | Всего страниц: 11
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -14,6 +14,7 @@
 
 ## Концепты
 - [[agent-abstraction-levels]] — шкала уровней агентных систем от чата и скиллов до субагентов, agent teams и workflow с объяснением роста токенной стоимости.
+- [[ai-agent-orchestration]] — паттерн разделения AI-агентов на 24/7-оркестратора и специализированных исполнителей, чтобы закрывать рабочий цикл от задачи до следующего шага.
 - [[agentic-coding-workflows]] — рабочие процессы агентов для разработки: инспекция кода, тесты, диагностика, исправления и контролируемая sandbox-автоматизация.
 - [[ai-engineering]] — интеграция AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
 - [[code-based-presentations]] — презентации, хранящиеся как текстовые или кодовые артефакты для Git, diff, автоматизации и публикации в вебе.
@@ -24,6 +25,7 @@
 ## Запросы
 
 ## Исходники
+- [ai-agent-orchestration-vs-execution-2026-06-05](raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md) — пересланная заметка и схема о Hermes/OpenClaw как 24/7-оркестраторе и Codex/Claude Code/OpenCode как исполнителях.
 - [anthropic-ant-cli-claude-platform-2026-06-03](raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md) — пересланный пост об ant CLI для Claude Platform, OAuth-авторизации, API-подкомандах и Claude Managed Agents.
 - [opencode-ai-coding-agent-2026-06-03](raw/articles/opencode-ai-coding-agent-2026-06-03.md) — сохранённый ответ из диалога с кратким объяснением OpenCode как open-source AI coding agent для автономной разработки.
 - [opencode-rules-agents-config-2026-06-05](raw/articles/opencode-rules-agents-config-2026-06-05.md) — сохранённая заметка о настройке поведения OpenCode через AGENTS.md, глобальные правила, opencode.json, agent-файлы и fallback на CLAUDE.md.

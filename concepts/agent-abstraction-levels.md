@@ -1,10 +1,10 @@
 ---
 title: Уровни агентных систем
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-05
 type: concept
 tags: [agent, workflow, automation, planning, cost, ai-engineering, architecture-pattern]
-sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md]
+sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md]
 confidence: medium
 ---
 
@@ -50,8 +50,13 @@ Goal добавляет цикл выполнения до условия зав
 - Для сложных задач с разными ролями нужен agent team, но только если коммуникационные накладные расходы оправданы.
 - Для процесса, который нужно запускать много раз, передавать другим и улучшать, нужен workflow как код.
 
+## Оркестратор против исполнителей
+
+[[ai-agent-orchestration]] добавляет практическое разделение ролей к этой шкале. Оркестратор ближе к workflow/agent team: он держит контекст, маршрутизирует задачи, проверяет результат и фиксирует статус. Исполнители ближе к goal/subagent: они делают bounded-работу — код, текст, анализ, дизайн или поддержку. Поэтому «налог на оркестрацию» появляется именно на верхних уровнях, где нужно не просто получить артефакт, а вернуть его в командный процесс.
+
 ## Связанные страницы
 
 - [[agentic-coding-workflows]]
+- [[ai-agent-orchestration]]
 - [[ai-engineering]]
 - [[openai-codex-python-sdk]]

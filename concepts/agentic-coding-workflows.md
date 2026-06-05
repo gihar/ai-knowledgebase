@@ -4,7 +4,7 @@ created: 2026-06-02
 updated: 2026-06-05
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md]
 confidence: medium
 ---
 
@@ -41,6 +41,10 @@ confidence: medium
 
 Для разработки важно различать уровни из [[agent-abstraction-levels]]: чат и скиллы подходят для локальной помощи, goal-циклы — для задач с проверяемым результатом, субагенты — для параллельной инспекции или независимых гипотез, а workflow нужен, когда процесс должен быть повторяемым и управляться кодом.
 
+## Оркестратор и исполнители
+
+Заметка про [[ai-agent-orchestration]] добавляет управленческую границу: coding agents вроде Codex, Claude Code, Cursor или [[opencode]] хорошо выполняют ограниченные задачи, но сами не закрывают полный цикл командной работы. Для масштаба нужен оркестратор, который принимает задачу из чата или трекера, достает контекст, выбирает исполнителя, проверяет результат, фиксирует статус и возвращает следующий шаг в рабочий поток.
+
 ## Вопросы дизайна
 
 - Доступ к sandbox должен быть явным и минимально необходимым.
@@ -51,6 +55,7 @@ confidence: medium
 ## Связанные страницы
 
 - [[ant-cli]]
+- [[ai-agent-orchestration]]
 - [[opencode]]
 - [[openai-codex-python-sdk]]
 - [[ai-engineering]]
