@@ -1,10 +1,10 @@
 ---
 title: Оркестрация AI-агентов
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-09
 type: concept
 tags: [agent, workflow, automation, planning, ai-engineering, architecture-pattern]
-sources: [raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md]
+sources: [raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
 confidence: medium
 ---
 
@@ -39,6 +39,10 @@ confidence: medium
 
 Этот паттерн уточняет [[agent-abstraction-levels]]: оркестратор ближе к уровню workflow / agent team, потому что управляет контекстом, распределением задач и фиксацией результата. Исполнители ближе к goal- или subagent-уровню: они получают ограниченную задачу и возвращают артефакт. Для [[agentic-coding-workflows]] это особенно важно: coding agent полезен, но производственная ценность появляется, когда изменения прошли проверку, связаны с задачей и возвращены в командный процесс.
 
+## Fleet looping
+
+[[agent-looping]] добавляет к оркестрации циклический режим: оркестратор не просто раздает задачи исполнителям, а держит цель, запускает discovery/planning/execution/verification/iteration и повторяет цикл до критерия остановки. В fleet loop каждый специалист или субагент может проходить собственный bounded-цикл, но верхний оркестратор обязан ограничивать глубину, бюджет, критерии качества и handoff результата.
+
 ## Открытые вопросы
 
 - Где должна проходить граница между управленческой логикой оркестратора и автономностью исполнителя?
@@ -49,6 +53,7 @@ confidence: medium
 ## Связанные страницы
 
 - [[agent-abstraction-levels]]
+- [[agent-looping]]
 - [[agentic-coding-workflows]]
 - [[ai-engineering]]
 - [[opencode]]

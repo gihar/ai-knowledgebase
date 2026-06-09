@@ -1,10 +1,10 @@
 ---
 title: Уровни агентных систем
 created: 2026-06-02
-updated: 2026-06-05
+updated: 2026-06-09
 type: concept
 tags: [agent, workflow, automation, planning, cost, ai-engineering, architecture-pattern]
-sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md]
+sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
 confidence: medium
 ---
 
@@ -54,9 +54,14 @@ Goal добавляет цикл выполнения до условия зав
 
 [[ai-agent-orchestration]] добавляет практическое разделение ролей к этой шкале. Оркестратор ближе к workflow/agent team: он держит контекст, маршрутизирует задачи, проверяет результат и фиксирует статус. Исполнители ближе к goal/subagent: они делают bounded-работу — код, текст, анализ, дизайн или поддержку. Поэтому «налог на оркестрацию» появляется именно на верхних уровнях, где нужно не просто получить артефакт, а вернуть его в командный процесс.
 
+## Agent looping как мост между goal и workflow
+
+[[agent-looping]] показывает, что автономность растет не только за счет числа агентов, но и за счет числа повторов внутри цикла. Single-agent loop близок к goal-уровню: один агент повторяет план/действие/проверку до критерия завершения. Fleet loop ближе к agent team/workflow: оркестратор запускает несколько специализированных циклов и платит дополнительную стоимость за координацию, handoff и независимую проверку.
+
 ## Связанные страницы
 
 - [[agentic-coding-workflows]]
 - [[ai-agent-orchestration]]
+- [[agent-looping]]
 - [[ai-engineering]]
 - [[openai-codex-python-sdk]]

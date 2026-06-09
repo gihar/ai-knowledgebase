@@ -90,3 +90,13 @@
 - Updated `concepts/ai-engineering.md` with orchestration as work-cycle closure.
 - Updated `concepts/agent-abstraction-levels.md` with orchestration tax notes.
 - Updated `index.md`.
+
+## [2026-06-09] ingest | Agent looping: single-agent, fleet, open and closed loops
+- Captured Telegram post as `raw/articles/agent-looping-open-closed-fleet-2026-06-09.md`.
+- Copied two attached images to `raw/assets/peter-steinberger-agent-looping-tweet-2026-06-09.jpg` and `raw/assets/agent-looping-single-fleet-open-closed-2026-06-09.jpg`.
+- Created `concepts/agent-looping.md`.
+- Updated `concepts/ai-agent-orchestration.md` with fleet looping notes.
+- Updated `concepts/agentic-coding-workflows.md` with closed/open loop notes for coding agents.
+- Updated `concepts/agent-abstraction-levels.md` with agent looping as a goal/workflow bridge.
+- Updated `concepts/ai-engineering.md` with loop design as reusable process engineering.
+- Updated `index.md`.

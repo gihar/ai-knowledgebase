@@ -1,10 +1,10 @@
 ---
 title: Агентные рабочие процессы разработки
 created: 2026-06-02
-updated: 2026-06-05
+updated: 2026-06-09
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
 confidence: medium
 ---
 
@@ -45,6 +45,10 @@ confidence: medium
 
 Заметка про [[ai-agent-orchestration]] добавляет управленческую границу: coding agents вроде Codex, Claude Code, Cursor или [[opencode]] хорошо выполняют ограниченные задачи, но сами не закрывают полный цикл командной работы. Для масштаба нужен оркестратор, который принимает задачу из чата или трекера, достает контекст, выбирает исполнителя, проверяет результат, фиксирует статус и возвращает следующий шаг в рабочий поток.
 
+## Циклы вместо ручных промптов
+
+[[agent-looping]] формулирует следующий слой для coding agents: вместо ручного запуска каждого шага проектируется цикл discovery → planning → execution → verification → iteration. Для разработки практичнее начинать с closed loop: заранее заданные шаги, тесты, review-gates, лимит итераций и критерий остановки. Open loop полезен для исследовательских задач, но без строгих стандартов быстро становится дорогим и шумным.
+
 ## Вопросы дизайна
 
 - Доступ к sandbox должен быть явным и минимально необходимым.
@@ -55,6 +59,7 @@ confidence: medium
 ## Связанные страницы
 
 - [[ant-cli]]
+- [[agent-looping]]
 - [[ai-agent-orchestration]]
 - [[opencode]]
 - [[openai-codex-python-sdk]]
