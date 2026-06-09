@@ -111,3 +111,9 @@
 - Updated `concepts/agent-abstraction-levels.md` with workflows as coded orchestration.
 - Updated `concepts/ai-engineering.md` with dynamic workflows as reusable pipeline artifacts.
 - Updated `index.md`.
+
+## [2026-06-09] ingest | Claude Code Dynamic Workflows official docs details
+- Captured answer with official documentation findings as `raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md`.
+- Updated `concepts/dynamic-workflows.md` with v2.1.154+, `/deep-research`, `ultracode`, `/workflows`, save locations, args, runtime limits, resume and permission notes.
+- Updated `entities/claude-code.md` with official availability and practical implications.
+- Updated `index.md`.
