@@ -100,3 +100,14 @@
 - Updated `concepts/agent-abstraction-levels.md` with agent looping as a goal/workflow bridge.
 - Updated `concepts/ai-engineering.md` with loop design as reusable process engineering.
 - Updated `index.md`.
+
+## [2026-06-09] ingest | Claude Code Dynamic Workflows
+- Captured Telegram post as `raw/articles/claude-code-dynamic-workflows-2026-06-09.md`.
+- Copied attached comparison image to `raw/assets/claude-code-dynamic-workflows-comparison-2026-06-09.jpg`.
+- Created `entities/claude-code.md`.
+- Created `concepts/dynamic-workflows.md`.
+- Updated `concepts/agent-looping.md` with script-driven workflow notes.
+- Updated `concepts/agentic-coding-workflows.md` with Claude Code Dynamic Workflows notes.
+- Updated `concepts/agent-abstraction-levels.md` with workflows as coded orchestration.
+- Updated `concepts/ai-engineering.md` with dynamic workflows as reusable pipeline artifacts.
+- Updated `index.md`.

@@ -4,7 +4,7 @@ created: 2026-06-02
 updated: 2026-06-09
 type: concept
 tags: [agent, workflow, automation, planning, cost, ai-engineering, architecture-pattern]
-sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
+sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md]
 confidence: medium
 ---
 
@@ -58,10 +58,15 @@ Goal добавляет цикл выполнения до условия зав
 
 [[agent-looping]] показывает, что автономность растет не только за счет числа агентов, но и за счет числа повторов внутри цикла. Single-agent loop близок к goal-уровню: один агент повторяет план/действие/проверку до критерия завершения. Fleet loop ближе к agent team/workflow: оркестратор запускает несколько специализированных циклов и платит дополнительную стоимость за координацию, handoff и независимую проверку.
 
+## Workflow как coded orchestration
+
+[[dynamic-workflows]] уточняют верхний уровень шкалы: workflow отличается от subagents и skills тем, что следующий шаг выбирает не модель в prompt, а исполняемый скрипт. Промежуточные результаты живут в переменных, поэтому масштабирование упирается меньше в context window и больше в стоимость запусков, latency, rate limits и качество агрегации.
+
 ## Связанные страницы
 
 - [[agentic-coding-workflows]]
 - [[ai-agent-orchestration]]
 - [[agent-looping]]
+- [[dynamic-workflows]]
 - [[ai-engineering]]
 - [[openai-codex-python-sdk]]

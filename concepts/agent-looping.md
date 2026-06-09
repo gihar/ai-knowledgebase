@@ -4,7 +4,7 @@ created: 2026-06-09
 updated: 2026-06-09
 type: concept
 tags: [agent, workflow, automation, orchestration, coding-agent, ai-engineering, architecture-pattern]
-sources: [raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
+sources: [raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md]
 confidence: medium
 ---
 
@@ -56,6 +56,10 @@ Closed looping работает внутри заранее спроектиро
 
 Agent looping уточняет [[agentic-coding-workflows]] и [[agent-abstraction-levels]]: переход от разовых промптов к циклам повышает автономность, но также увеличивает расходы на контекст, проверку и координацию. Для production-сценариев важнее не «дать агенту свободу», а спроектировать цикл с проверяемыми выходами и понятной остановкой.
 
+## Script-driven loops
+
+[[dynamic-workflows]] показывают практический способ сделать closed loop исполняемым: не главный агент решает каждый следующий шаг в своем context window, а скрипт запускает субагентов, хранит промежуточные результаты в переменных и требует structured outputs. Это снижает давление на контекст и переносит повторяемость цикла в код.
+
 ## Практические вопросы дизайна
 
 - Какой критерий качества завершает цикл?
@@ -67,6 +71,7 @@ Agent looping уточняет [[agentic-coding-workflows]] и [[agent-abstracti
 ## Связанные страницы
 
 - [[ai-agent-orchestration]]
+- [[dynamic-workflows]]
 - [[agentic-coding-workflows]]
 - [[agent-abstraction-levels]]
 - [[ai-engineering]]

@@ -4,7 +4,7 @@ created: 2026-06-02
 updated: 2026-06-09
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md]
 confidence: medium
 ---
 
@@ -49,6 +49,10 @@ confidence: medium
 
 [[agent-looping]] формулирует следующий слой для coding agents: вместо ручного запуска каждого шага проектируется цикл discovery → planning → execution → verification → iteration. Для разработки практичнее начинать с closed loop: заранее заданные шаги, тесты, review-gates, лимит итераций и критерий остановки. Open loop полезен для исследовательских задач, но без строгих стандартов быстро становится дорогим и шумным.
 
+## Dynamic workflows в Claude Code
+
+[[claude-code]] Dynamic Workflows добавляют к coding-agent workflow скриптовую оркестрацию: runtime выполняет script, а не основной Claude turn-by-turn решает все шаги. Промежуточные результаты субагентов могут храниться в переменных скрипта, а каждый шаг возвращает structured output. Это делает большие пайплайны ближе к [[dynamic-workflows]]: меньше давления на context window, больше повторяемости, но выше требования к тестированию самого orchestration code.
+
 ## Вопросы дизайна
 
 - Доступ к sandbox должен быть явным и минимально необходимым.
@@ -61,6 +65,8 @@ confidence: medium
 - [[ant-cli]]
 - [[agent-looping]]
 - [[ai-agent-orchestration]]
+- [[claude-code]]
+- [[dynamic-workflows]]
 - [[opencode]]
 - [[openai-codex-python-sdk]]
 - [[ai-engineering]]
