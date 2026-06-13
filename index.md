@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-06-09 | Всего страниц: 14
+> Последнее обновление: 2026-06-13 | Всего страниц: 15
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -24,6 +24,7 @@
 - [[local-llm-hardware-fit]] — подбор локальных LLM под железо с учетом RAM/VRAM, backend, quantization, контекста и категории задачи.
 
 ## Сравнения
+- [[claude-duet-vs-cowork]] — сравнение прямого режима Duet/Claude Code и Cowork через изолированную Linux VM: скорость и локальная интеграция против безопасности, чистого окружения и простого отката.
 
 ## Запросы
 
@@ -33,6 +34,7 @@
 - [anthropic-ant-cli-claude-platform-2026-06-03](raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md) — пересланный пост об ant CLI для Claude Platform, OAuth-авторизации, API-подкомандах и Claude Managed Agents.
 - [claude-code-dynamic-workflows-2026-06-09](raw/articles/claude-code-dynamic-workflows-2026-06-09.md) — пересланная заметка и сравнительная схема о Claude Code Dynamic Workflows, subagents, skills, script variables и structured outputs.
 - [claude-code-dynamic-workflows-official-docs-2026-06-09](raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md) — сохранённый ответ с деталями официальной документации Claude Code Dynamic Workflows: версии, `/deep-research`, `/effort ultracode`, `/workflows`, save locations, args, limits и permissions.
+- [claude-duet-vs-cowork-sandbox-2026-06-13](raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md) — пересланная схема о различиях Duet/Claude Code с прямым доступом к проекту и Cowork, который выполняет задачу в изолированной Linux VM-песочнице.
 - [opencode-ai-coding-agent-2026-06-03](raw/articles/opencode-ai-coding-agent-2026-06-03.md) — сохранённый ответ из диалога с кратким объяснением OpenCode как open-source AI coding agent для автономной разработки.
 - [opencode-rules-agents-config-2026-06-05](raw/articles/opencode-rules-agents-config-2026-06-05.md) — сохранённая заметка о настройке поведения OpenCode через AGENTS.md, глобальные правила, opencode.json, agent-файлы и fallback на CLAUDE.md.
 - [llm-checker-local-llm-recommendations-2026-06-02](raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md) — пересланный пост об утилите llm-checker, которая анализирует железо и рекомендует локальные LLM под задачи вроде coding.

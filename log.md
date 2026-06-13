@@ -117,3 +117,11 @@
 - Updated `concepts/dynamic-workflows.md` with v2.1.154+, `/deep-research`, `ultracode`, `/workflows`, save locations, args, runtime limits, resume and permission notes.
 - Updated `entities/claude-code.md` with official availability and practical implications.
 - Updated `index.md`.
+
+## [2026-06-13] ingest | Claude Duet vs Cowork sandbox comparison
+- Captured Telegram image as `raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md`.
+- Copied attached comparison image to `raw/assets/claude-duet-vs-cowork-comparison-2026-06-13.jpg`.
+- Created `comparisons/claude-duet-vs-cowork.md`.
+- Updated `entities/claude-code.md` with Duet/Cowork access-boundary notes.
+- Updated `concepts/agentic-coding-workflows.md` with sandbox-first execution notes.
+- Updated `index.md`.

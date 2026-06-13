@@ -1,10 +1,10 @@
 ---
 title: Агентные рабочие процессы разработки
 created: 2026-06-02
-updated: 2026-06-09
+updated: 2026-06-13
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md]
 confidence: medium
 ---
 
@@ -53,6 +53,10 @@ confidence: medium
 
 [[claude-code]] Dynamic Workflows добавляют к coding-agent workflow скриптовую оркестрацию: runtime выполняет script, а не основной Claude turn-by-turn решает все шаги. Промежуточные результаты субагентов могут храниться в переменных скрипта, а каждый шаг возвращает structured output. Это делает большие пайплайны ближе к [[dynamic-workflows]]: меньше давления на context window, больше повторяемости, но выше требования к тестированию самого orchestration code.
 
+## Sandbox-first выполнение
+
+Сравнение [[claude-duet-vs-cowork]] показывает ещё одну ось дизайна coding agents: прямой доступ к локальному проекту против выполнения в изолированной VM. Прямой режим быстрее и глубже интегрирован с локальной средой, но требует доверия к agent permissions. Sandbox-first режим добавляет копирование проекта, подготовку окружения и возврат результатов, зато снижает риск повреждения основной системы и упрощает откат.
+
 ## Вопросы дизайна
 
 - Доступ к sandbox должен быть явным и минимально необходимым.
@@ -66,6 +70,7 @@ confidence: medium
 - [[agent-looping]]
 - [[ai-agent-orchestration]]
 - [[claude-code]]
+- [[claude-duet-vs-cowork]]
 - [[dynamic-workflows]]
 - [[opencode]]
 - [[openai-codex-python-sdk]]
