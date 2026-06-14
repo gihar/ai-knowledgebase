@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-06-14 | Всего страниц: 17
+> Последнее обновление: 2026-06-14 | Всего страниц: 18
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -22,6 +22,7 @@
 - [[ai-engineering]] — интеграция AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
 - [[ai-video-dubbing]] — workflow автоматической переозвучки видео: субтитры/ASR, локальная TTS, voice cloning, тайминги и сборка через ffmpeg.
 - [[code-based-presentations]] — презентации, хранящиеся как текстовые или кодовые артефакты для Git, diff, автоматизации и публикации в вебе.
+- [[codex-goal-mode]] — практики постановки измеримых целей для `/goal` в Codex: stop condition, быстрый feedback loop, чек-листы и Markdown-журналы.
 - [[dynamic-workflows]] — скриптовая оркестрация агентных пайплайнов: промежуточные результаты живут в переменных скрипта, а шаги возвращают structured outputs.
 - [[local-llm-hardware-fit]] — подбор локальных LLM под железо с учетом RAM/VRAM, backend, quantization, контекста и категории задачи.
 
@@ -37,6 +38,7 @@
 - [claude-code-dynamic-workflows-2026-06-09](raw/articles/claude-code-dynamic-workflows-2026-06-09.md) — пересланная заметка и сравнительная схема о Claude Code Dynamic Workflows, subagents, skills, script variables и structured outputs.
 - [claude-code-dynamic-workflows-official-docs-2026-06-09](raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md) — сохранённый ответ с деталями официальной документации Claude Code Dynamic Workflows: версии, `/deep-research`, `/effort ultracode`, `/workflows`, save locations, args, limits и permissions.
 - [claude-duet-vs-cowork-sandbox-2026-06-13](raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md) — пересланная схема о различиях Duet/Claude Code с прямым доступом к проекту и Cowork, который выполняет задачу в изолированной Linux VM-песочнице.
+- [codex-goal-mode-measurable-goals-2026-06-14](raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md) — статья о режиме `/goal` в Codex: измеримые цели, быстрые проверки и Markdown-файлы состояния для долгих агентных циклов.
 - [opencode-ai-coding-agent-2026-06-03](raw/articles/opencode-ai-coding-agent-2026-06-03.md) — сохранённый ответ из диалога с кратким объяснением OpenCode как open-source AI coding agent для автономной разработки.
 - [opencode-rules-agents-config-2026-06-05](raw/articles/opencode-rules-agents-config-2026-06-05.md) — сохранённая заметка о настройке поведения OpenCode через AGENTS.md, глобальные правила, opencode.json, agent-файлы и fallback на CLAUDE.md.
 - [llm-checker-local-llm-recommendations-2026-06-02](raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md) — пересланный пост об утилите llm-checker, которая анализирует железо и рекомендует локальные LLM под задачи вроде coding.

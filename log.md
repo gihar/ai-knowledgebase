@@ -133,3 +133,11 @@
 - Updated `concepts/agentic-coding-workflows.md` with media-pipeline skill notes.
 - Updated `concepts/ai-engineering.md` with local TTS/voice-cloning workflow notes.
 - Updated `index.md`.
+
+## [2026-06-14] ingest | Codex goal mode measurable goals
+- Captured web article as `raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md`.
+- Created `concepts/codex-goal-mode.md`.
+- Updated `concepts/agent-looping.md` with Codex `/goal` as a single-agent loop example.
+- Updated `concepts/agentic-coding-workflows.md` with measurable goal and Markdown state notes.
+- Updated `concepts/ai-engineering.md` with goal mode as workflow artifact framing.
+- Updated `index.md`.
