@@ -1,10 +1,10 @@
 ---
 title: Агентные рабочие процессы разработки
 created: 2026-06-02
-updated: 2026-06-13
+updated: 2026-06-14
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md]
 confidence: medium
 ---
 
@@ -57,6 +57,10 @@ confidence: medium
 
 Сравнение [[claude-duet-vs-cowork]] показывает ещё одну ось дизайна coding agents: прямой доступ к локальному проекту против выполнения в изолированной VM. Прямой режим быстрее и глубже интегрирован с локальной средой, но требует доверия к agent permissions. Sandbox-first режим добавляет копирование проекта, подготовку окружения и возврат результатов, зато снижает риск повреждения основной системы и упрощает откат.
 
+## Медиа-pipeline как coding-agent skill
+
+Заметка про [[fish-speech]] добавляет не кодовый, но агентно-инженерный сценарий: Codex skill может обернуть локальную TTS/voice-cloning модель в CLI для [[ai-video-dubbing]]. Тогда пользовательская команда «переозвучь видео» запускает воспроизводимый pipeline вокруг `ffmpeg`, субтитров/ASR, синтеза речи и проверки результата, а не набор ручных операций.
+
 ## Вопросы дизайна
 
 - Доступ к sandbox должен быть явным и минимально необходимым.
@@ -76,3 +80,5 @@ confidence: medium
 - [[openai-codex-python-sdk]]
 - [[ai-engineering]]
 - [[agent-abstraction-levels]]
+- [[ai-video-dubbing]]
+- [[fish-speech]]

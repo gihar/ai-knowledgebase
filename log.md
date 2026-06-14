@@ -125,3 +125,11 @@
 - Updated `entities/claude-code.md` with Duet/Cowork access-boundary notes.
 - Updated `concepts/agentic-coding-workflows.md` with sandbox-first execution notes.
 - Updated `index.md`.
+
+## [2026-06-14] ingest | Fish Speech local Russian voice cloning
+- Captured Telegram note as `raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md`.
+- Created `entities/fish-speech.md`.
+- Created `concepts/ai-video-dubbing.md`.
+- Updated `concepts/agentic-coding-workflows.md` with media-pipeline skill notes.
+- Updated `concepts/ai-engineering.md` with local TTS/voice-cloning workflow notes.
+- Updated `index.md`.
