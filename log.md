@@ -148,3 +148,11 @@
 - Created `concepts/local-vector-search.md`.
 - Updated `concepts/ai-engineering.md` with embedded vector search as an infrastructure pattern.
 - Updated `index.md`.
+
+## [2026-06-20] ingest | Datalab Lift document structured extraction
+- Captured Telegram note and attached video as `raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md`.
+- Saved video and extracted frames under `raw/assets/`.
+- Created `entities/lift.md`.
+- Created `concepts/document-structured-extraction.md`.
+- Updated `concepts/ai-engineering.md` with schema-first document extraction as a workflow pattern.
+- Updated `index.md`.
