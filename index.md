@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-06-14 | Всего страниц: 18
+> Последнее обновление: 2026-06-20 | Всего страниц: 20
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -13,6 +13,7 @@
 - [[opencode]] — open-source, provider-agnostic AI coding agent для автономной разработки через CLI/TUI.
 - [[openai-codex-python-sdk]] — заявленный Python SDK для встраивания сессий Codex, шагов агента, потоковых обновлений, изображений и управления sandbox в Python-приложения.
 - [[revealjs]] — открытый HTML-фреймворк для презентаций, полезный для поддерживаемых слайдов, сгенерированных с помощью AI.
+- [[zvec]] — embedded/in-process vector database от Alibaba для локального similarity, full-text и hybrid search без отдельного сервера.
 
 ## Концепты
 - [[agent-abstraction-levels]] — шкала уровней агентных систем от чата и скиллов до субагентов, agent teams и workflow с объяснением роста токенной стоимости.
@@ -25,6 +26,7 @@
 - [[codex-goal-mode]] — практики постановки измеримых целей для `/goal` в Codex: stop condition, быстрый feedback loop, чек-листы и Markdown-журналы.
 - [[dynamic-workflows]] — скриптовая оркестрация агентных пайплайнов: промежуточные результаты живут в переменных скрипта, а шаги возвращают structured outputs.
 - [[local-llm-hardware-fit]] — подбор локальных LLM под железо с учетом RAM/VRAM, backend, quantization, контекста и категории задачи.
+- [[local-vector-search]] — паттерн локального/embedded similarity search для RAG, персональных knowledge base и edge-сценариев без отдельной vector DB инфраструктуры.
 
 ## Сравнения
 - [[claude-duet-vs-cowork]] — сравнение прямого режима Duet/Claude Code и Cowork через изолированную Linux VM: скорость и локальная интеграция против безопасности, чистого окружения и простого отката.
@@ -46,3 +48,4 @@
 - [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — пересланный пост с утверждением, что OpenAI выпустила Python SDK для Codex с сессиями, потоковыми обновлениями, изображениями и управлением sandbox.
 - [revealjs-maintainable-ai-generated-presentations-2026-06-02](raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md) — пересланный пост о том, почему Reveal.js лучше AI-инструментов дизайна для поддерживаемых презентаций.
 - [agent-abstraction-levels-token-costs-2026-06-02](raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md) — пересланный пост и схема о различиях между chat, skill, goal, subagent, agent team и workflow и о том, почему стоимость растет с координацией.
+- [zvec-local-embedded-vector-search-2026-06-20](raw/articles/zvec-local-embedded-vector-search-2026-06-20.md) — пересланная заметка о zvec как локальной embedded vector database от Alibaba с full-text, hybrid search, DiskANN и Zvec Studio.

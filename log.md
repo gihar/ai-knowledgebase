@@ -141,3 +141,10 @@
 - Updated `concepts/agentic-coding-workflows.md` with measurable goal and Markdown state notes.
 - Updated `concepts/ai-engineering.md` with goal mode as workflow artifact framing.
 - Updated `index.md`.
+
+## [2026-06-20] ingest | Zvec local embedded vector search
+- Captured Telegram note as `raw/articles/zvec-local-embedded-vector-search-2026-06-20.md`.
+- Created `entities/zvec.md`.
+- Created `concepts/local-vector-search.md`.
+- Updated `concepts/ai-engineering.md` with embedded vector search as an infrastructure pattern.
+- Updated `index.md`.
