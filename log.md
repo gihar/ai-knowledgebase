@@ -156,3 +156,11 @@
 - Created `concepts/document-structured-extraction.md`.
 - Updated `concepts/ai-engineering.md` with schema-first document extraction as a workflow pattern.
 - Updated `index.md`.
+
+## [2026-06-26] ingest | CopilotKit frontend stack for AI agents
+- Раскрыт материал из X-поста `https://x.com/ataiiam/status/2069797329809395978` до статьи CopilotKit `https://www.copilotkit.ai/blog/frontend-stack-for-ai-agents`.
+- Добавлен русский перевод как `raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md`.
+- Created `entities/copilotkit.md`.
+- Created `concepts/agentic-frontend-stack.md`.
+- Updated `concepts/ai-engineering.md` with agentic frontend stack as an interface/protocol engineering artifact.
+- Updated `index.md`.

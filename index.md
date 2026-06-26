@@ -2,12 +2,13 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-06-20 | Всего страниц: 22
+> Последнее обновление: 2026-06-26 | Всего страниц: 24
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
 - [[ant-cli]] — CLI для Claude Platform: вызовы API-ресурсов, OAuth, shell/YAML workflows и управление Claude Managed Agents из Git/CI.
 - [[claude-code]] — coding-agent CLI/TUI от Anthropic; Dynamic Workflows переносят оркестрацию субагентов в исполняемые скрипты со structured outputs.
+- [[copilotkit]] — open-source frontend stack для AI-агентов: AG-UI, shared state, frontend tools, generative/headless UI, persistent threads и Inspector.
 - [[fish-speech]] — open-source TTS/voice-cloning модель Fish Audio для локальной генерации речи, русского voice cloning и CLI-переозвучки видео.
 - [[lift]] — open-source 9B vision-модель Datalab для извлечения структурированного JSON из PDF/изображений по JSON Schema.
 - [[llm-checker]] — CLI-утилита для анализа локального железа и рекомендаций LLM под задачи вроде coding, reasoning и multimodal.
@@ -21,6 +22,7 @@
 - [[agent-looping]] — паттерн агентных циклов discovery → planning → execution → verification → iteration, включая single-agent loop, fleet loop, open looping и closed looping.
 - [[ai-agent-orchestration]] — паттерн разделения AI-агентов на 24/7-оркестратора и специализированных исполнителей, чтобы закрывать рабочий цикл от задачи до следующего шага.
 - [[agentic-coding-workflows]] — рабочие процессы агентов для разработки: инспекция кода, тесты, диагностика, исправления и контролируемая sandbox-автоматизация.
+- [[agentic-frontend-stack]] — interface/protocol слой для agent-native приложений: AG-UI, shared state, frontend tools, human-in-the-loop, threads, inspector и generative UI.
 - [[ai-engineering]] — интеграция AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
 - [[ai-video-dubbing]] — workflow автоматической переозвучки видео: субтитры/ASR, локальная TTS, voice cloning, тайминги и сборка через ffmpeg.
 - [[code-based-presentations]] — презентации, хранящиеся как текстовые или кодовые артефакты для Git, diff, автоматизации и публикации в вебе.
@@ -43,6 +45,7 @@
 - [claude-code-dynamic-workflows-official-docs-2026-06-09](raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md) — сохранённый ответ с деталями официальной документации Claude Code Dynamic Workflows: версии, `/deep-research`, `/effort ultracode`, `/workflows`, save locations, args, limits и permissions.
 - [claude-duet-vs-cowork-sandbox-2026-06-13](raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md) — пересланная схема о различиях Duet/Claude Code с прямым доступом к проекту и Cowork, который выполняет задачу в изолированной Linux VM-песочнице.
 - [codex-goal-mode-measurable-goals-2026-06-14](raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md) — статья о режиме `/goal` в Codex: измеримые цели, быстрые проверки и Markdown-файлы состояния для долгих агентных циклов.
+- [copilotkit-frontend-stack-for-ai-agents-2026-05-20](raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md) — перевод статьи CopilotKit о frontend stack для AI-агентов: AG-UI, shared state, tools, persistent threads, generative UI, Inspector, MCP и self-improving agents.
 - [opencode-ai-coding-agent-2026-06-03](raw/articles/opencode-ai-coding-agent-2026-06-03.md) — сохранённый ответ из диалога с кратким объяснением OpenCode как open-source AI coding agent для автономной разработки.
 - [opencode-rules-agents-config-2026-06-05](raw/articles/opencode-rules-agents-config-2026-06-05.md) — сохранённая заметка о настройке поведения OpenCode через AGENTS.md, глобальные правила, opencode.json, agent-файлы и fallback на CLAUDE.md.
 - [llm-checker-local-llm-recommendations-2026-06-02](raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md) — пересланный пост об утилите llm-checker, которая анализирует железо и рекомендует локальные LLM под задачи вроде coding.
