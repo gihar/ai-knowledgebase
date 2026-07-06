@@ -2,11 +2,12 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-06-26 | Всего страниц: 24
+> Последнее обновление: 2026-07-06 | Всего страниц: 26
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
 - [[ant-cli]] — CLI для Claude Platform: вызовы API-ресурсов, OAuth, shell/YAML workflows и управление Claude Managed Agents из Git/CI.
+- [[awesome-free-llm-apis]] — справочник permanently free LLM API с лимитами, OpenAI SDK compatibility, SDK, speed tiers и caveat по неподтверждённым соцсетевым метрикам.
 - [[claude-code]] — coding-agent CLI/TUI от Anthropic; Dynamic Workflows переносят оркестрацию субагентов в исполняемые скрипты со structured outputs.
 - [[copilotkit]] — open-source frontend stack для AI-агентов: AG-UI, shared state, frontend tools, generative/headless UI, persistent threads и Inspector.
 - [[fish-speech]] — open-source TTS/voice-cloning модель Fish Audio для локальной генерации речи, русского voice cloning и CLI-переозвучки видео.
@@ -29,6 +30,7 @@
 - [[codex-goal-mode]] — практики постановки измеримых целей для `/goal` в Codex: stop condition, быстрый feedback loop, чек-листы и Markdown-журналы.
 - [[document-structured-extraction]] — schema-first workflow извлечения JSON/полей из PDF и изображений для автоматизации документных процессов.
 - [[dynamic-workflows]] — скриптовая оркестрация агентных пайплайнов: промежуточные результаты живут в переменных скрипта, а шаги возвращают structured outputs.
+- [[free-llm-api-directories]] — каталоги free-tier LLM API: подбор endpoints по моделям, лимитам, OpenAI-compatible API, SDK и скорости для прототипов и devtools.
 - [[local-llm-hardware-fit]] — подбор локальных LLM под железо с учетом RAM/VRAM, backend, quantization, контекста и категории задачи.
 - [[local-vector-search]] — паттерн локального/embedded similarity search для RAG, персональных knowledge base и edge-сценариев без отдельной vector DB инфраструктуры.
 
@@ -55,3 +57,4 @@
 - [revealjs-maintainable-ai-generated-presentations-2026-06-02](raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md) — пересланный пост о том, почему Reveal.js лучше AI-инструментов дизайна для поддерживаемых презентаций.
 - [agent-abstraction-levels-token-costs-2026-06-02](raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md) — пересланный пост и схема о различиях между chat, skill, goal, subagent, agent team и workflow и о том, почему стоимость растет с координацией.
 - [zvec-local-embedded-vector-search-2026-06-20](raw/articles/zvec-local-embedded-vector-search-2026-06-20.md) — пересланная заметка о zvec как локальной embedded vector database от Alibaba с full-text, hybrid search, DiskANN и Zvec Studio.
+- [awesome-free-llm-apis-directory-2026-07-06](raw/articles/awesome-free-llm-apis-directory-2026-07-06.md) — пересланная заметка о GitHub-справочнике бесплатных LLM API с проверкой найденного репозитория и caveat по неподтверждённым 25k stars.

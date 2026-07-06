@@ -164,3 +164,10 @@
 - Created `concepts/agentic-frontend-stack.md`.
 - Updated `concepts/ai-engineering.md` with agentic frontend stack as an interface/protocol engineering artifact.
 - Updated `index.md`.
+
+## [2026-07-06] ingest | awesome-free-llm-apis free LLM API directory
+- Captured forwarded Telegram note as `raw/articles/awesome-free-llm-apis-directory-2026-07-06.md`.
+- Verified likely GitHub repository `amardeeplakshkar/awesome-free-llm-apis`; recorded GitHub API metadata and caveat that the social-post claim of 25k stars did not match API result at ingest time.
+- Created `entities/awesome-free-llm-apis.md`.
+- Created `concepts/free-llm-api-directories.md`.
+- Updated `index.md`.
