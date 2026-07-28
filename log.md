@@ -5,6 +5,11 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to `log-YYYY.md`, start fresh.
 
+## [2026-07-28] ingest | Open Minis mobile AI agent
+- Captured forwarded post as `raw/articles/open-minis-mobile-ai-agent-2026-07-28.md`.
+- Created `entities/open-minis.md` with caveats: GitHub link, license, architecture, privacy and device-permission details require separate verification.
+- Updated `index.md`.
+
 ## [2026-06-02] create | Wiki initialized
 - Domain: AI knowledge base — AI/ML, LLMs, agents, AI engineering, evals, safety, tools, companies, and practical implementation patterns.
 - Structure created with SCHEMA.md, index.md, log.md, raw/, entities/, concepts/, comparisons/, queries/, _meta/.

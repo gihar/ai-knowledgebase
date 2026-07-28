@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-07-06 | Всего страниц: 26
+> Последнее обновление: 2026-07-28 | Всего страниц: 27
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -15,6 +15,7 @@
 - [[llm-checker]] — CLI-утилита для анализа локального железа и рекомендаций LLM под задачи вроде coding, reasoning и multimodal.
 - [[opencode]] — open-source, provider-agnostic AI coding agent для автономной разработки через CLI/TUI.
 - [[openai-codex-python-sdk]] — заявленный Python SDK для встраивания сессий Codex, шагов агента, потоковых обновлений, изображений и управления sandbox в Python-приложения.
+- [[open-minis]] — open-source основа для мобильного AI-агента на iOS и Android: shell, браузер, Skills, память и доступ к возможностям смартфона.
 - [[revealjs]] — открытый HTML-фреймворк для презентаций, полезный для поддерживаемых слайдов, сгенерированных с помощью AI.
 - [[zvec]] — embedded/in-process vector database от Alibaba для локального similarity, full-text и hybrid search без отдельного сервера.
 
@@ -54,6 +55,7 @@
 - [fish-speech-local-russian-voice-cloning-2026-06-14](raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md) — заметка о Fish Speech как локальной open-source TTS/voice-cloning модели для русского языка и будущей CLI-переозвучки видео через Codex skill.
 - [datalab-lift-document-structured-extraction-2026-06-20](raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md) — пересланная заметка и видео о Lift, 9B open-source модели Datalab для structured extraction из документов по JSON Schema.
 - [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — пересланный пост с утверждением, что OpenAI выпустила Python SDK для Codex с сессиями, потоковыми обновлениями, изображениями и управлением sandbox.
+- [open-minis-mobile-ai-agent-2026-07-28](raw/articles/open-minis-mobile-ai-agent-2026-07-28.md) — пересланная заметка об Open Minis: open-source приложении для iOS/Android с shell, браузером, Skills, памятью и доступом к функциям смартфона.
 - [revealjs-maintainable-ai-generated-presentations-2026-06-02](raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md) — пересланный пост о том, почему Reveal.js лучше AI-инструментов дизайна для поддерживаемых презентаций.
 - [agent-abstraction-levels-token-costs-2026-06-02](raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md) — пересланный пост и схема о различиях между chat, skill, goal, subagent, agent team и workflow и о том, почему стоимость растет с координацией.
 - [zvec-local-embedded-vector-search-2026-06-20](raw/articles/zvec-local-embedded-vector-search-2026-06-20.md) — пересланная заметка о zvec как локальной embedded vector database от Alibaba с full-text, hybrid search, DiskANN и Zvec Studio.
