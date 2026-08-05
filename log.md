@@ -176,3 +176,9 @@
 - Created `entities/awesome-free-llm-apis.md`.
 - Created `concepts/free-llm-api-directories.md`.
 - Updated `index.md`.
+
+## [2026-08-05] query | Неуспешные cron-задачи Hermes
+- Создано: `raw/articles/hermes-cron-failures-2026-08-05.md` — локальный снимок шести неуспешных запусков, основанный на статусах и журналах Hermes Cron.
+- Создано: `queries/hermes-cron-failures-2026-08-05.md` — разделены реальные пропуски результатов и задачи, для которых корректным результатом был `[SILENT]`.
+- Зафиксирована общая причина: неудачное обновление токена Codex; определён приоритет восстановления.
+- Обновлён `index.md`.

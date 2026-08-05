@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-07-28 | Всего страниц: 27
+> Последнее обновление: 2026-08-05 | Всего страниц: 28
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -39,6 +39,7 @@
 - [[claude-duet-vs-cowork]] — сравнение прямого режима Duet/Claude Code и Cowork через изолированную Linux VM: скорость и локальная интеграция против безопасности, чистого окружения и простого отката.
 
 ## Запросы
+- [[hermes-cron-failures-2026-08-05]] — снимок шести неуспешных запусков Hermes Cron, их общего сбоя авторизации Codex и приоритета восстановления.
 
 ## Исходники
 - [agent-looping-open-closed-fleet-2026-06-09](raw/articles/agent-looping-open-closed-fleet-2026-06-09.md) — пересланная заметка и схемы о single-agent/fleet agent looping, open/closed loops, стоимости и каталоге готовых loop-сценариев.
@@ -60,3 +61,4 @@
 - [agent-abstraction-levels-token-costs-2026-06-02](raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md) — пересланный пост и схема о различиях между chat, skill, goal, subagent, agent team и workflow и о том, почему стоимость растет с координацией.
 - [zvec-local-embedded-vector-search-2026-06-20](raw/articles/zvec-local-embedded-vector-search-2026-06-20.md) — пересланная заметка о zvec как локальной embedded vector database от Alibaba с full-text, hybrid search, DiskANN и Zvec Studio.
 - [awesome-free-llm-apis-directory-2026-07-06](raw/articles/awesome-free-llm-apis-directory-2026-07-06.md) — пересланная заметка о GitHub-справочнике бесплатных LLM API с проверкой найденного репозитория и caveat по неподтверждённым 25k stars.
+- [hermes-cron-failures-2026-08-05](raw/articles/hermes-cron-failures-2026-08-05.md) — локальный снимок неуспешных запусков Hermes Cron за 05.08.2026 и их общего сбоя обновления токена Codex.
