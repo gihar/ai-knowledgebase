@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-08-05 | Всего страниц: 28
+> Последнее обновление: 2026-08-18 | Всего страниц: 29
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -22,6 +22,7 @@
 ## Концепты
 - [[agent-abstraction-levels]] — шкала уровней агентных систем от чата и скиллов до субагентов, agent teams и workflow с объяснением роста токенной стоимости.
 - [[agent-looping]] — паттерн агентных циклов discovery → planning → execution → verification → iteration, включая single-agent loop, fleet loop, open looping и closed looping.
+- [[agent-skills]] — переиспользуемые процедуры для AI-агентов в формате `SKILL.md`: проектирование, безопасность и граница между скиллом, MCP и workflow.
 - [[ai-agent-orchestration]] — паттерн разделения AI-агентов на 24/7-оркестратора и специализированных исполнителей, чтобы закрывать рабочий цикл от задачи до следующего шага.
 - [[agentic-coding-workflows]] — рабочие процессы агентов для разработки: инспекция кода, тесты, диагностика, исправления и контролируемая sandbox-автоматизация.
 - [[agentic-frontend-stack]] — interface/protocol слой для agent-native приложений: AG-UI, shared state, frontend tools, human-in-the-loop, threads, inspector и generative UI.
@@ -62,3 +63,4 @@
 - [zvec-local-embedded-vector-search-2026-06-20](raw/articles/zvec-local-embedded-vector-search-2026-06-20.md) — пересланная заметка о zvec как локальной embedded vector database от Alibaba с full-text, hybrid search, DiskANN и Zvec Studio.
 - [awesome-free-llm-apis-directory-2026-07-06](raw/articles/awesome-free-llm-apis-directory-2026-07-06.md) — пересланная заметка о GitHub-справочнике бесплатных LLM API с проверкой найденного репозитория и caveat по неподтверждённым 25k stars.
 - [hermes-cron-failures-2026-08-05](raw/articles/hermes-cron-failures-2026-08-05.md) — локальный снимок неуспешных запусков Hermes Cron за 05.08.2026 и их общего сбоя обновления токена Codex.
+- [vc-skills-for-ai-agents-2026-08-18](raw/articles/vc-skills-for-ai-agents-2026-08-18.md) — статья о скиллах для AI-агентов: формате `SKILL.md`, установке, безопасности, проектировании и границе между скиллом, сервисом и workflow.

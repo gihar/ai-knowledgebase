@@ -182,3 +182,9 @@
 - Создано: `queries/hermes-cron-failures-2026-08-05.md` — разделены реальные пропуски результатов и задачи, для которых корректным результатом был `[SILENT]`.
 - Зафиксирована общая причина: неудачное обновление токена Codex; определён приоритет восстановления.
 - Обновлён `index.md`.
+
+## [2026-08-18] ingest | Skills for AI agents
+- Сохранена статья vc.ru как `raw/articles/vc-skills-for-ai-agents-2026-08-18.md`; SHA256 тела зафиксирован во frontmatter.
+- Создана концепт-страница `concepts/agent-skills.md` о формате `SKILL.md`, проектировании, безопасности и границе между скиллом, MCP и workflow.
+- Обновлены `concepts/agent-abstraction-levels.md` и `concepts/ai-engineering.md`.
+- Обновлён `index.md`.

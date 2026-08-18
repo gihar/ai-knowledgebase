@@ -1,10 +1,10 @@
 ---
 title: Уровни агентных систем
 created: 2026-06-02
-updated: 2026-06-09
+updated: 2026-08-18
 type: concept
 tags: [agent, workflow, automation, planning, cost, ai-engineering, architecture-pattern]
-sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md]
+sources: [raw/articles/agent-abstraction-levels-token-costs-2026-06-02.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/vc-skills-for-ai-agents-2026-08-18.md]
 confidence: medium
 ---
 
@@ -26,6 +26,8 @@ confidence: medium
 ## Ключевое различие
 
 Скилл — это не новый агент, а память о процедуре: markdown-инструкция, шаблон, чеклист или скрипт. Он делает поведение воспроизводимее и дешевле, но сам не создает автономный цикл.
+
+[[agent-skills]] уточняет этот уровень: хороший скилл начинается с точного описания условий вызова, содержит узкую процедуру и проверяемый результат. Перед установкой чужого скилла нужно проверить его команды, сетевые обращения, доступ к файлам и разрешения.
 
 Goal добавляет цикл выполнения до условия завершения. Субагент добавляет изоляцию контекста и параллелизм. Agent team добавляет многостороннюю координацию. Workflow переносит управляющую логику из «размышлений агента» в код, поэтому становится повторяемым, передаваемым и улучшаемым как software artifact.
 

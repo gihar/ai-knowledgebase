@@ -1,10 +1,10 @@
 ---
 title: AI-инжиниринг
 created: 2026-06-02
-updated: 2026-06-26
+updated: 2026-08-18
 type: concept
 tags: [ai-engineering, workflow, devtools, automation]
-sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md, raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md, raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md, raw/articles/zvec-local-embedded-vector-search-2026-06-20.md, raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md, raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md]
+sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md, raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md, raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md, raw/articles/zvec-local-embedded-vector-search-2026-06-20.md, raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md, raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md, raw/articles/vc-skills-for-ai-agents-2026-08-18.md]
 confidence: medium
 ---
 
@@ -39,6 +39,10 @@ AI-инжиниринг — практика интеграции AI-систе�
 ## Пример: уровни агентных систем
 
 [[agent-abstraction-levels]] добавляет к AI-инжинирингу архитектурную шкалу: чат, скилл, goal, субагент, agent team и workflow — это разные способы купить воспроизводимость, автономность, параллелизм или координацию. Практический вывод: не стоит сразу выбирать самый дорогой уровень; сначала нужно понять, какая именно способность нужна процессу.
+
+## Пример: скиллы как переиспользуемые процедуры
+
+[[agent-skills]] фиксирует практический слой AI-инжиниринга: повторяемую процедуру можно оформить как версионируемый `SKILL.md` с условиями применения, шагами, проверками и примерами. Это дешевле и проще, чем сразу строить сервис или workflow, но требует аккуратного описания и аудита разрешений.
 
 ## Пример: оркестрация как закрытие рабочего цикла
 
