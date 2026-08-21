@@ -188,3 +188,7 @@
 - Создана концепт-страница `concepts/agent-skills.md` о формате `SKILL.md`, проектировании, безопасности и границе между скиллом, MCP и workflow.
 - Обновлены `concepts/agent-abstraction-levels.md` и `concepts/ai-engineering.md`.
 - Обновлён `index.md`.
+
+## [2026-08-21] create | Triage тикетов в GitHub
+- Создана концепт-страница `concepts/github-issue-triage.md` с переводами и практическим значением `triage` в GitHub Issues.
+- Обновлён `index.md`.
