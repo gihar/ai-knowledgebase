@@ -192,3 +192,9 @@
 ## [2026-08-21] create | Triage тикетов в GitHub
 - Создана концепт-страница `concepts/github-issue-triage.md` с переводами и практическим значением `triage` в GitHub Issues.
 - Обновлён `index.md`.
+
+## [2026-08-21] ingest | Готовые скиллы для AI-агентов
+- Сохранён пересланный список как `raw/articles/ready-agent-skills-list-2026-08-21.md`.
+- Изображение сохранено в `raw/assets/ready-agent-skills-list-2026-08-21.jpg`; SHA256 тела raw-статьи зафиксирован во frontmatter.
+- Обновлена концепт-страница `concepts/agent-skills.md` с каталогом категорий и предупреждением о необходимости проверки скиллов перед установкой.
+- Обновлён `index.md`.

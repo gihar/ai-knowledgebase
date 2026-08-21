@@ -1,10 +1,10 @@
 ---
 title: Скиллы для AI-агентов
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-21
 type: concept
 tags: [agent, tool-use, workflow, automation, mcp, ai-engineering, devtools, architecture-pattern]
-sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md]
+sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md]
 confidence: medium
 ---
 
@@ -43,6 +43,19 @@ confidence: medium
 Чужой скилл следует проверять как исполняемый артефакт: посмотреть автора, активность и лицензию репозитория, прочитать `SKILL.md`, перечислить команды, сетевые обращения, читаемые и изменяемые файлы. Красные флаги — скачивание и запуск кода из сети одной командой, доступ к ключам и `.env`, отправка данных на необъяснимые адреса, запакованный код, просьбы скрывать действия от пользователя и чрезмерные разрешения.
 
 Практически безопаснее сначала использовать скилл разово, затем устанавливать его только после проверки и подтверждения пользы.
+
+## Каталог готовых скиллов
+
+Пересланный список предлагает готовые скиллы по нескольким группам:
+
+- **Процесс и дисциплина агента:** Skill Creator, Superpowers, Grill Me, Task Proof Loop.
+- **Дизайн и интерфейсы:** Frontend Design, UI/UX Pro Max, Better Interface, Impeccable, AI Website Cloner, designmd.supply, Visual Explainer, Effective HTML, RevealJS, OpenMontage.
+- **Текст:** Writing Guru, Humanizer.
+- **Разработка и подключения:** MCP Builder, Playwright, GitMCP.
+- **Маркетинг и ресерч:** Claude SEO, Marketing Skills, `/last30days`, NotebookLM-py.
+- **Бизнес и рутина:** Small Business, Excel Hygiene, Mole.
+
+Список полезен как каталог направлений для поиска и как источник идей для собственных скиллов. Названия, заявленные возможности, версии и безопасность конкретных репозиториев в пересланном материале отдельно не проверялись; перед установкой нужно изучить `SKILL.md`, код, разрешения, сетевые обращения и лицензию. Иллюстрация и полный исходный текст сохранены в [[raw/articles/ready-agent-skills-list-2026-08-21]].
 
 ## Когда скилла достаточно
 
