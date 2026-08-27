@@ -204,3 +204,8 @@
 - Создана страница сущности `entities/screenshot-to-code.md` с описанием, поддерживаемыми стеками и примером промпта.
 - Обновлена `concepts/ai-engineering.md` с паттерном генерации frontend-кода из скриншота.
 - Обновлён `index.md`.
+
+## [2026-08-27] update | Screenshot to Code forwarded demo
+- Сохранено пересланное описание и промпт как `raw/articles/screenshot-to-code-forwarded-2026-08-27.md`; прикреплённая видеодемонстрация сохранена в `raw/assets/screenshot-to-code-demo-2026-08-27.mp4`.
+- Обновлена `entities/screenshot-to-code.md`: добавлены сценарий для вайбкодинга, восстановление взаимодействий/анимаций по записи экрана и уточнённый промпт для Codex/Claude Code.
+- Обновлён `index.md`.

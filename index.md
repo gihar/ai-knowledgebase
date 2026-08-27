@@ -68,3 +68,4 @@
 - [vc-skills-for-ai-agents-2026-08-18](raw/articles/vc-skills-for-ai-agents-2026-08-18.md) — статья о скиллах для AI-агентов: формате `SKILL.md`, установке, безопасности, проектировании и границе между скиллом, сервисом и workflow.
 - [ready-agent-skills-list-2026-08-21](raw/articles/ready-agent-skills-list-2026-08-21.md) — пересланный список готовых скиллов для дисциплины агента, дизайна, текста, разработки, маркетинга и бизнес-рутины.
 - [screenshot-to-code-2026-08-27](raw/articles/screenshot-to-code-2026-08-27.md) — README репозитория Screenshot to Code: генерация frontend-кода из скриншотов, поддерживаемые стеки, локальный запуск и API-ключи.
+- [screenshot-to-code-forwarded-2026-08-27](raw/articles/screenshot-to-code-forwarded-2026-08-27.md) — пересланное описание инструмента, сценарий использования при вайбкодинге, запись экрана и промпт для Codex/Claude Code.

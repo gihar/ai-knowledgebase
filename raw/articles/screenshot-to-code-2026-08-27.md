@@ -3,7 +3,6 @@ source_url: https://github.com/abi/screenshot-to-code
 ingested: 2026-08-27
 sha256: a728506f78f76cbe602ae83805be2516b4c0b03763de09a64184fc96bb619c06
 ---
-
 # screenshot-to-code
 
 Convert screenshots, mockups, Figma designs, and screen recordings into clean, functional code using AI. The easiest way to try this is using <a href="https://screenshottocode.com/?utm_source=github&utm_medium=readme&utm_campaign=oss_readme&utm_content=top_cta" target="_blank" rel="noopener noreferrer">the official, hosted product at screenshottocode.com →</a>
