@@ -198,3 +198,9 @@
 - Изображение сохранено в `raw/assets/ready-agent-skills-list-2026-08-21.jpg`; SHA256 тела raw-статьи зафиксирован во frontmatter.
 - Обновлена концепт-страница `concepts/agent-skills.md` с каталогом категорий и предупреждением о необходимости проверки скиллов перед установкой.
 - Обновлён `index.md`.
+
+## [2026-08-27] ingest | Screenshot to Code
+- Сохранён официальный README репозитория `https://github.com/abi/screenshot-to-code` как `raw/articles/screenshot-to-code-2026-08-27.md`; SHA256 тела зафиксирован во frontmatter.
+- Создана страница сущности `entities/screenshot-to-code.md` с описанием, поддерживаемыми стеками и примером промпта.
+- Обновлена `concepts/ai-engineering.md` с паттерном генерации frontend-кода из скриншота.
+- Обновлён `index.md`.

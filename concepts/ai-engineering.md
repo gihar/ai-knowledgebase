@@ -1,10 +1,10 @@
 ---
 title: AI-инжиниринг
 created: 2026-06-02
-updated: 2026-08-18
+updated: 2026-08-27
 type: concept
 tags: [ai-engineering, workflow, devtools, automation]
-sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md, raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md, raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md, raw/articles/zvec-local-embedded-vector-search-2026-06-20.md, raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md, raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md, raw/articles/vc-skills-for-ai-agents-2026-08-18.md]
+sources: [raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md, raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md, raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md, raw/articles/zvec-local-embedded-vector-search-2026-06-20.md, raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md, raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md, raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/screenshot-to-code-2026-08-27.md]
 confidence: medium
 ---
 
@@ -75,6 +75,10 @@ AI-инжиниринг — практика интеграции AI-систе�
 ## Пример: agentic frontend stack
 
 [[copilotkit]] добавляет к AI-инжинирингу interface/protocol слой для agent-native приложений: frontend tools, shared state, persistent threads, human-in-the-loop approvals, inspector и generative/headless UI. Это показывает, что агентный продукт требует не только модели и backend workflow, но и поддерживаемого [[agentic-frontend-stack]], который можно отлаживать, версионировать и развивать как обычный software artifact.
+
+## Пример: генерация frontend-кода из скриншота
+
+[[screenshot-to-code]] показывает прикладной сценарий vision-assisted разработки: скриншот или Figma-макет используется как входной артефакт, а AI генерирует React/Vue/HTML-код с выбранным CSS-стеком. Для надёжного результата важны извлечение реальных assets, адаптация под разные размеры экрана и визуальная проверка сгенерированной страницы в браузере.
 
 ## Связанные страницы
 
