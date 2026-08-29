@@ -209,3 +209,9 @@
 - Сохранено пересланное описание и промпт как `raw/articles/screenshot-to-code-forwarded-2026-08-27.md`; прикреплённая видеодемонстрация сохранена в `raw/assets/screenshot-to-code-demo-2026-08-27.mp4`.
 - Обновлена `entities/screenshot-to-code.md`: добавлены сценарий для вайбкодинга, восстановление взаимодействий/анимаций по записи экрана и уточнённый промпт для Codex/Claude Code.
 - Обновлён `index.md`.
+
+## [2026-08-29] ingest | Обновлённый каталог готовых скиллов для AI-агентов
+- Сохранена пересланная подборка из 27 скиллов как `raw/articles/ready-agent-skills-catalog-2026-08-29.md`; SHA256 тела зафиксирован во frontmatter.
+- Прикреплённое изображение сохранено в `raw/assets/ready-agent-skills-catalog-2026-08-29.jpg`.
+- Обновлена `concepts/agent-skills.md`: добавлен Prompt Master, выделены категории наглядности/медиа, разработки/данных и рабочего места.
+- Обновлён `index.md`.

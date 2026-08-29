@@ -1,10 +1,10 @@
 ---
 title: Скиллы для AI-агентов
 created: 2026-08-18
-updated: 2026-08-21
+updated: 2026-08-29
 type: concept
 tags: [agent, tool-use, workflow, automation, mcp, ai-engineering, devtools, architecture-pattern]
-sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md]
+sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md]
 confidence: medium
 ---
 
@@ -46,16 +46,19 @@ confidence: medium
 
 ## Каталог готовых скиллов
 
-Пересланный список предлагает готовые скиллы по нескольким группам:
+Обновлённая пересланная подборка группирует готовые скиллы по семи направлениям:
 
-- **Процесс и дисциплина агента:** Skill Creator, Superpowers, Grill Me, Task Proof Loop.
-- **Дизайн и интерфейсы:** Frontend Design, UI/UX Pro Max, Better Interface, Impeccable, AI Website Cloner, designmd.supply, Visual Explainer, Effective HTML, RevealJS, OpenMontage.
-- **Текст:** Writing Guru, Humanizer.
-- **Разработка и подключения:** MCP Builder, Playwright, GitMCP.
-- **Маркетинг и ресерч:** Claude SEO, Marketing Skills, `/last30days`, NotebookLM-py.
-- **Бизнес и рутина:** Small Business, Excel Hygiene, Mole.
+- **Порядок работы:** Skill Creator, Superpowers, Grill Me, Task Proof Loop.
+- **Текст:** Humanizer, Writing Guru, Prompt Master.
+- **Дизайн и интерфейсы:** Frontend Design, UI/UX Pro Max, Better Interface, Impeccable, AI Website Cloner, designmd.supply.
+- **Наглядность и медиа:** Visual Explainer, Effective HTML, RevealJS, OpenMontage.
+- **Разработка и данные:** MCP Builder, Playwright, Excel Hygiene.
+- **Маркетинг, SEO и ресерч:** Claude SEO, Marketing Skills, `last30days`, NotebookLM-py.
+- **Бизнес и рабочее место:** Small Business, Mole, GitMCP.
 
-Список полезен как каталог направлений для поиска и как источник идей для собственных скиллов. Названия, заявленные возможности, версии и безопасность конкретных репозиториев в пересланном материале отдельно не проверялись; перед установкой нужно изучить `SKILL.md`, код, разрешения, сетевые обращения и лицензию. Иллюстрация и полный исходный текст сохранены в [[raw/articles/ready-agent-skills-list-2026-08-21]].
+По сравнению с версией от 21 августа в каталог добавлен Prompt Master, отдельно выделены наглядность и медиа, а Excel Hygiene и GitMCP перенесены в более точные тематические группы. ^[raw/articles/ready-agent-skills-catalog-2026-08-29.md]
+
+Подборка полезна как каталог направлений для поиска и как источник идей для собственных скиллов. Названия, заявленные возможности, версии и безопасность конкретных репозиториев в пересланном материале отдельно не проверялись; перед установкой нужно изучить `SKILL.md`, код, разрешения, сетевые обращения и лицензию. Полный исходный текст и новая иллюстрация сохранены в [[raw/articles/ready-agent-skills-catalog-2026-08-29]], предыдущая редакция — в [[raw/articles/ready-agent-skills-list-2026-08-21]].
 
 ## Когда скилла достаточно
 
