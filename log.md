@@ -220,3 +220,8 @@
 - Сохранён README репозитория как `raw/articles/repo2video-readme-2026-10-11.md` с SHA256 тела.
 - Создана `entities/repo2video.md` с ссылкой на скилл, назначением, зависимостями и ограничениями проверки.
 - Обновлены `concepts/agent-skills.md` и `index.md`.
+
+## [2026-10-11] ingest | 15 GitHub-репозиториев для AI-моушн-дизайна
+- Сохранён пересланный пост со всеми 15 ссылками в `raw/articles/motion-design-15-repos-forwarded-2026-10-11.md`, изображение — в `raw/assets/motion-design-15-repos-2026-10-11.jpg`; SHA256 тела указан во frontmatter.
+- Создана концепт-страница `concepts/ai-motion-design.md` с классификацией задач и оговорками; проверена доступность 15 ссылок на GitHub.
+- Обновлены `concepts/agent-skills.md`, `entities/repo2video.md` и `index.md`.

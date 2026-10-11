@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-10-11 | Всего страниц: 32
+> Последнее обновление: 2026-10-11 | Всего страниц: 33
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -29,6 +29,7 @@
 - [[agentic-coding-workflows]] — рабочие процессы агентов для разработки: инспекция кода, тесты, диагностика, исправления и контролируемая sandbox-автоматизация.
 - [[agentic-frontend-stack]] — interface/protocol слой для agent-native приложений: AG-UI, shared state, frontend tools, human-in-the-loop, threads, inspector и generative UI.
 - [[ai-engineering]] — интеграция AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
+- [[ai-motion-design]] — карта 15 GitHub-проектов по задачам: ролик запуска, монтаж своего видео, короткая анимация или анимация сайта.
 - [[github-issue-triage]] — значение triage в GitHub Issues: первичный разбор, классификация и маршрутизация тикетов.
 - [[ai-video-dubbing]] — workflow автоматической переозвучки видео: субтитры/ASR, локальная TTS, voice cloning, тайминги и сборка через ffmpeg.
 - [[code-based-presentations]] — презентации, хранящиеся как текстовые или кодовые артефакты для Git, diff, автоматизации и публикации в вебе.
@@ -57,6 +58,7 @@
 - [opencode-ai-coding-agent-2026-06-03](raw/articles/opencode-ai-coding-agent-2026-06-03.md) — сохранённый ответ из диалога с кратким объяснением OpenCode как open-source AI coding agent для автономной разработки.
 - [opencode-rules-agents-config-2026-06-05](raw/articles/opencode-rules-agents-config-2026-06-05.md) — сохранённая заметка о настройке поведения OpenCode через AGENTS.md, глобальные правила, opencode.json, agent-файлы и fallback на CLAUDE.md.
 - [llm-checker-local-llm-recommendations-2026-06-02](raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md) — пересланный пост об утилите llm-checker, которая анализирует железо и рекомендует локальные LLM под задачи вроде coding.
+- [motion-design-15-repos-forwarded-2026-10-11](raw/articles/motion-design-15-repos-forwarded-2026-10-11.md) — пересланный каталог 15 репозиториев для AI-моушн-дизайна со схемой выбора и изображением.
 - [fish-speech-local-russian-voice-cloning-2026-06-14](raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md) — заметка о Fish Speech как локальной open-source TTS/voice-cloning модели для русского языка и будущей CLI-переозвучки видео через Codex skill.
 - [datalab-lift-document-structured-extraction-2026-06-20](raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md) — пересланная заметка и видео о Lift, 9B open-source модели Datalab для structured extraction из документов по JSON Schema.
 - [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — пересланный пост с утверждением, что OpenAI выпустила Python SDK для Codex с сессиями, потоковыми обновлениями, изображениями и управлением sandbox.

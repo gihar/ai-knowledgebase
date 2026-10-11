@@ -39,3 +39,4 @@ confidence: medium
 - [[agent-skills]]
 - [[agentic-coding-workflows]]
 - [[ai-engineering]]
+- [[ai-motion-design]]
