@@ -215,3 +215,8 @@
 - Прикреплённое изображение сохранено в `raw/assets/ready-agent-skills-catalog-2026-08-29.jpg`.
 - Обновлена `concepts/agent-skills.md`: добавлен Prompt Master, выделены категории наглядности/медиа, разработки/данных и рабочего места.
 - Обновлён `index.md`.
+
+## [2026-10-11] ingest | repo2video для видеопояснения кода
+- Сохранён README репозитория как `raw/articles/repo2video-readme-2026-10-11.md` с SHA256 тела.
+- Создана `entities/repo2video.md` с ссылкой на скилл, назначением, зависимостями и ограничениями проверки.
+- Обновлены `concepts/agent-skills.md` и `index.md`.

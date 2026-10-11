@@ -1,10 +1,10 @@
 ---
 title: Скиллы для AI-агентов
 created: 2026-08-18
-updated: 2026-08-29
+updated: 2026-10-11
 type: concept
 tags: [agent, tool-use, workflow, automation, mcp, ai-engineering, devtools, architecture-pattern]
-sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md]
+sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md, raw/articles/repo2video-readme-2026-10-11.md]
 confidence: medium
 ---
 
@@ -60,6 +60,8 @@ confidence: medium
 
 Подборка полезна как каталог направлений для поиска и как источник идей для собственных скиллов. Названия, заявленные возможности, версии и безопасность конкретных репозиториев в пересланном материале отдельно не проверялись; перед установкой нужно изучить `SKILL.md`, код, разрешения, сетевые обращения и лицензию. Полный исходный текст и новая иллюстрация сохранены в [[raw/articles/ready-agent-skills-catalog-2026-08-29]], предыдущая редакция — в [[raw/articles/ready-agent-skills-list-2026-08-21]].
 
+Отдельный пример медиа-скилла — [[repo2video]]: Claude Code анализирует GitHub-проект и пишет сценарий, а отдельный движок формирует видеопояснение архитектуры и кода с озвучкой. Описание изучено, но рендер не проверялся.
+
 ## Когда скилла достаточно
 
 Скилл подходит для процедуры, которую запускает человек из своего чата и которая укладывается в один-два последовательных шага. Если процесс должен выполняться по расписанию без человека, отвечать другим пользователям, иметь интерфейс или выдерживать нагрузку, потребуется бот, сервис или автоматизация. [[ai-engineering]] рассматривает скиллы как один из версионируемых workflow-артефактов, а [[dynamic-workflows]] — как следующий уровень, где оркестрация переносится в исполняемый код.
@@ -79,3 +81,4 @@ confidence: medium
 - [[ai-engineering]]
 - [[dynamic-workflows]]
 - [[claude-code]]
+- [[repo2video]]
