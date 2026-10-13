@@ -1,10 +1,10 @@
 ---
 title: Claude Code
 created: 2026-06-09
-updated: 2026-06-13
+updated: 2026-10-13
 type: entity
 tags: [claude, anthropic, coding-agent, cli, agent, workflow, devtools]
-sources: [raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md]
+sources: [raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md, raw/articles/turn-inspector-forwarded-2026-10-13.md]
 confidence: medium
 ---
 
@@ -30,6 +30,10 @@ Claude Code — coding-agent CLI/TUI от Anthropic для работы с ре�
 
 Практически это делает Duet быстрее и удобнее для разработчиков, но рискованнее по правам доступа; Cowork медленнее и дороже по накладным расходам, зато лучше изолирует вредоносный код, зависимости и сбои окружения.
 
+## Наблюдение за контекстом
+
+Сторонний мод [[turn-inspector]] показывает по ходам категории входа/выхода и заполнение контекстного окна; разбивка отдельных категорий оценочная, а не буквальное содержимое системных инструкций и памяти.
+
 ## Связанные страницы
 
 - [[dynamic-workflows]]
@@ -38,3 +42,4 @@ Claude Code — coding-agent CLI/TUI от Anthropic для работы с ре�
 - [[ai-agent-orchestration]]
 - [[agent-looping]]
 - [[opencode]]
+- [[turn-inspector]]

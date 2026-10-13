@@ -225,3 +225,8 @@
 - Сохранён пересланный пост со всеми 15 ссылками в `raw/articles/motion-design-15-repos-forwarded-2026-10-11.md`, изображение — в `raw/assets/motion-design-15-repos-2026-10-11.jpg`; SHA256 тела указан во frontmatter.
 - Создана концепт-страница `concepts/ai-motion-design.md` с классификацией задач и оговорками; проверена доступность 15 ссылок на GitHub.
 - Обновлены `concepts/agent-skills.md`, `entities/repo2video.md` и `index.md`.
+
+## [2026-10-13] ingest | Turn Inspector для Claude Code
+- Сохранён пересланный пост в `raw/articles/turn-inspector-forwarded-2026-10-13.md`, видео — в `raw/assets/turn-inspector-demo-2026-10-13.mp4`; SHA256 тела зафиксирован во frontmatter.
+- Создана `entities/turn-inspector.md` с ссылкой на страницу разработчика, возможностями и различием между измеренным общим usage и оценками отдельных блоков.
+- Обновлены `entities/claude-code.md` и `index.md`.
