@@ -1,10 +1,10 @@
 ---
 title: Агентные рабочие процессы разработки
 created: 2026-06-02
-updated: 2026-06-14
+updated: 2026-10-20
 type: concept
 tags: [agent, tool-use, workflow, automation, ai-engineering, devtools]
-sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md, raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md]
+sources: [raw/articles/openai-codex-python-sdk-2026-06-02.md, raw/articles/opencode-ai-coding-agent-2026-06-03.md, raw/articles/opencode-rules-agents-config-2026-06-05.md, raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md, raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-code-dynamic-workflows-2026-06-09.md, raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md, raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md, raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md, raw/articles/vibe-coding-prepayment-checklist-2026-10-20.md]
 confidence: medium
 ---
 
@@ -72,6 +72,8 @@ confidence: medium
 - Потоковые обновления должны быть достаточно структурированными для логов, UI-прогресса и alerting.
 - Любой автоматический режим записи требует review gates перед merge или deployment.
 
+Перед первым реальным платежом в AI-сгенерированном приложении полезен отдельный [[vibe-coding-prepayment-audit]]: пять направлений проверки, таблица доказательств по 23 пунктам и запрет на исправления до одобрения владельца. Исходная заметка предоставлена пользователем; сервисные лимиты и тарифы в ней требуют сверки на дату запуска. ^[raw/articles/vibe-coding-prepayment-checklist-2026-10-20.md]
+
 ## Связанные страницы
 
 - [[ant-cli]]
@@ -87,3 +89,4 @@ confidence: medium
 - [[agent-abstraction-levels]]
 - [[ai-video-dubbing]]
 - [[fish-speech]]
+- [[vibe-coding-prepayment-audit]]

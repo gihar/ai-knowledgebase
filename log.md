@@ -230,3 +230,8 @@
 - Сохранён пересланный пост в `raw/articles/turn-inspector-forwarded-2026-10-13.md`, видео — в `raw/assets/turn-inspector-demo-2026-10-13.mp4`; SHA256 тела зафиксирован во frontmatter.
 - Создана `entities/turn-inspector.md` с ссылкой на страницу разработчика, возможностями и различием между измеренным общим usage и оценками отдельных блоков.
 - Обновлены `entities/claude-code.md` и `index.md`.
+
+## [2026-10-20] ingest | Аудит вайб-кодинг приложения перед платежом
+- Сохранены предоставленные пользователем 23 пункта и полный промпт для пяти субагентов в `raw/articles/vibe-coding-prepayment-checklist-2026-10-20.md`; SHA256 тела зафиксирован во frontmatter.
+- Создана `concepts/vibe-coding-prepayment-audit.md` с группировкой и ограничениями по неподтверждённым сервисным утверждениям.
+- Обновлены `concepts/agentic-coding-workflows.md`, `concepts/ai-engineering.md` и `index.md`.
