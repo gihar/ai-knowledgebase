@@ -2,13 +2,14 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-10-20 | Всего страниц: 35
+> Последнее обновление: 2026-10-22 | Всего страниц: 37
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
 - [[ant-cli]] — CLI для Claude Platform: вызовы API-ресурсов, OAuth, shell/YAML workflows и управление Claude Managed Agents из Git/CI.
 - [[awesome-free-llm-apis]] — справочник permanently free LLM API с лимитами, OpenAI SDK compatibility, SDK, speed tiers и caveat по неподтверждённым соцсетевым метрикам.
 - [[claude-code]] — coding-agent CLI/TUI от Anthropic; Dynamic Workflows переносят оркестрацию субагентов в исполняемые скрипты со structured outputs.
+- [[claude-duet-agent]] — проактивное облачное приложение Anthropic на Opus 5.5: превью для US Pro/Max, лимиты, коннекторы, контроль действий и отличия от Dots.
 - [[copilotkit]] — open-source frontend stack для AI-агентов: AG-UI, shared state, frontend tools, generative/headless UI, persistent threads и Inspector.
 - [[fish-speech]] — open-source TTS/voice-cloning модель Fish Audio для локальной генерации речи, русского voice cloning и CLI-переозвучки видео.
 - [[lift]] — open-source 9B vision-модель Datalab для извлечения структурированного JSON из PDF/изображений по JSON Schema.
@@ -38,6 +39,7 @@
 - [[document-structured-extraction]] — schema-first workflow извлечения JSON/полей из PDF и изображений для автоматизации документных процессов.
 - [[dynamic-workflows]] — скриптовая оркестрация агентных пайплайнов: промежуточные результаты живут в переменных скрипта, а шаги возвращают structured outputs.
 - [[free-llm-api-directories]] — каталоги free-tier LLM API: подбор endpoints по моделям, лимитам, OpenAI-compatible API, SDK и скорости для прототипов и devtools.
+- [[first-user-agent-qa]] — четыре тестовые персоны проходят путь от главной страницы до первого результата, затем независимый повторный прогон после исправлений.
 - [[local-llm-hardware-fit]] — подбор локальных LLM под железо с учетом RAM/VRAM, backend, quantization, контекста и категории задачи.
 - [[local-vector-search]] — паттерн локального/embedded similarity search для RAG, персональных knowledge base и edge-сценариев без отдельной vector DB инфраструктуры.
 - [[vibe-coding-prepayment-audit]] — 23 проверки AI-сгенерированного приложения до первого платежа и промпт для аудита пятью субагентами без изменений продакшена.
@@ -54,6 +56,7 @@
 - [anthropic-ant-cli-claude-platform-2026-06-03](raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md) — пересланный пост об ant CLI для Claude Platform, OAuth-авторизации, API-подкомандах и Claude Managed Agents.
 - [claude-code-dynamic-workflows-2026-06-09](raw/articles/claude-code-dynamic-workflows-2026-06-09.md) — пересланная заметка и сравнительная схема о Claude Code Dynamic Workflows, subagents, skills, script variables и structured outputs.
 - [claude-code-dynamic-workflows-official-docs-2026-06-09](raw/articles/claude-code-dynamic-workflows-official-docs-2026-06-09.md) — сохранённый ответ с деталями официальной документации Claude Code Dynamic Workflows: версии, `/deep-research`, `/effort ultracode`, `/workflows`, save locations, args, limits и permissions.
+- [claude-duet-forwarded-2026-10-22](raw/articles/claude-duet-forwarded-2026-10-22.md) — пересланная заметка и видео о Claude Duet; фактические утверждения сопоставлены с материалами Anthropic в отдельной странице.
 - [claude-duet-vs-cowork-sandbox-2026-06-13](raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md) — пересланная схема о различиях Duet/Claude Code с прямым доступом к проекту и Cowork, который выполняет задачу в изолированной Linux VM-песочнице.
 - [codex-goal-mode-measurable-goals-2026-06-14](raw/articles/codex-goal-mode-measurable-goals-2026-06-14.md) — статья о режиме `/goal` в Codex: измеримые цели, быстрые проверки и Markdown-файлы состояния для долгих агентных циклов.
 - [copilotkit-frontend-stack-for-ai-agents-2026-05-20](raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md) — перевод статьи CopilotKit о frontend stack для AI-агентов: AG-UI, shared state, tools, persistent threads, generative UI, Inspector, MCP и self-improving agents.
@@ -62,6 +65,7 @@
 - [llm-checker-local-llm-recommendations-2026-06-02](raw/articles/llm-checker-local-llm-recommendations-2026-06-02.md) — пересланный пост об утилите llm-checker, которая анализирует железо и рекомендует локальные LLM под задачи вроде coding.
 - [motion-design-15-repos-forwarded-2026-10-11](raw/articles/motion-design-15-repos-forwarded-2026-10-11.md) — пересланный каталог 15 репозиториев для AI-моушн-дизайна со схемой выбора и изображением.
 - [fish-speech-local-russian-voice-cloning-2026-06-14](raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md) — заметка о Fish Speech как локальной open-source TTS/voice-cloning модели для русского языка и будущей CLI-переозвучки видео через Codex skill.
+- [first-users-agent-qa-forwarded-2026-10-22](raw/articles/first-users-agent-qa-forwarded-2026-10-22.md) — полный промпт и схема проверки продукта четырьмя новыми пользователями до и после исправлений.
 - [datalab-lift-document-structured-extraction-2026-06-20](raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md) — пересланная заметка и видео о Lift, 9B open-source модели Datalab для structured extraction из документов по JSON Schema.
 - [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — пересланный пост с утверждением, что OpenAI выпустила Python SDK для Codex с сессиями, потоковыми обновлениями, изображениями и управлением sandbox.
 - [open-minis-mobile-ai-agent-2026-07-28](raw/articles/open-minis-mobile-ai-agent-2026-07-28.md) — пересланная заметка об Open Minis: open-source приложении для iOS/Android с shell, браузером, Skills, памятью и доступом к функциям смартфона.

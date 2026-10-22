@@ -1,14 +1,16 @@
 ---
 title: Claude Duet vs Cowork
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-10-22
 type: comparison
 tags: [claude, claude-code, cowork, duet, sandbox, vm, coding-agent]
-sources: [raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md]
+sources: [raw/articles/claude-duet-vs-cowork-sandbox-2026-06-13.md, raw/articles/claude-duet-forwarded-2026-10-22.md]
 confidence: medium
 ---
 
 # Claude Duet vs Cowork
+
+> **Уточнение от 22.10.2026:** эта ранняя пересланная схема использует «Duet» как обозначение локального режима Claude Code. Новое одноимённое приложение [[claude-duet-agent]] Anthropic — отдельный проактивный облачный продукт с собственной виртуальной машиной, а не описанный ниже режим прямого доступа к локальной ОС. Не переносить сравнение этой схемы на новое приложение.
 
 Claude Duet/Claude Code и Cowork можно понимать как два режима доступа Claude к среде разработки. По пересланной схеме, базовый агентный процесс одинаковый: понять задачу, изучить код, внести изменения, установить зависимости при необходимости, запустить проверки и вернуть результат. Различается не «интеллект» модели, а место выполнения действий и уровень изоляции.
 
@@ -41,3 +43,4 @@ Cowork на схеме описан как режим внутри прилож�
 
 - [[claude-code]]
 - [[agentic-coding-workflows]]
+- [[claude-duet-agent]]

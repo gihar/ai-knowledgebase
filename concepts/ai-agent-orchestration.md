@@ -1,10 +1,10 @@
 ---
 title: Оркестрация AI-агентов
 created: 2026-06-05
-updated: 2026-06-09
+updated: 2026-10-22
 type: concept
 tags: [agent, workflow, automation, planning, ai-engineering, architecture-pattern]
-sources: [raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md]
+sources: [raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md, raw/articles/agent-looping-open-closed-fleet-2026-06-09.md, raw/articles/claude-duet-forwarded-2026-10-22.md]
 confidence: medium
 ---
 
@@ -43,6 +43,10 @@ confidence: medium
 
 [[agent-looping]] добавляет к оркестрации циклический режим: оркестратор не просто раздает задачи исполнителям, а держит цель, запускает discovery/planning/execution/verification/iteration и повторяет цикл до критерия остановки. В fleet loop каждый специалист или субагент может проходить собственный bounded-цикл, но верхний оркестратор обязан ограничивать глубину, бюджет, критерии качества и handoff результата.
 
+## Пример проактивного облачного агента
+
+Отдельный продукт [[claude-duet-agent]] демонстрирует проактивный облачный вариант оркестрации: периодические проверки подключённых приложений, утреннюю сводку и согласование чувствительных действий. Это не тот же «Duet», которым в старой схеме обозначали локальный режим Claude Code. ^[raw/articles/claude-duet-forwarded-2026-10-22.md]
+
 ## Открытые вопросы
 
 - Где должна проходить граница между управленческой логикой оркестратора и автономностью исполнителя?
@@ -58,3 +62,4 @@ confidence: medium
 - [[ai-engineering]]
 - [[opencode]]
 - [[openai-codex-python-sdk]]
+- [[claude-duet-agent]]

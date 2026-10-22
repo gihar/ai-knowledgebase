@@ -235,3 +235,9 @@
 - Сохранены предоставленные пользователем 23 пункта и полный промпт для пяти субагентов в `raw/articles/vibe-coding-prepayment-checklist-2026-10-20.md`; SHA256 тела зафиксирован во frontmatter.
 - Создана `concepts/vibe-coding-prepayment-audit.md` с группировкой и ограничениями по неподтверждённым сервисным утверждениям.
 - Обновлены `concepts/agentic-coding-workflows.md`, `concepts/ai-engineering.md` и `index.md`.
+
+## [2026-10-22] ingest | Claude Duet и тест первого пользовательского пути
+- Два пересланных материала сохранены раздельно: `raw/articles/claude-duet-forwarded-2026-10-22.md` и `raw/articles/first-users-agent-qa-forwarded-2026-10-22.md`, включая полный промпт; SHA256 тела зафиксированы.
+- Приложенные видео и схема сохранены в `raw/assets/`; созданы `entities/claude-duet-agent.md` и `concepts/first-user-agent-qa.md`.
+- Проверены ключевые сведения об ограничениях Claude Duet по страницам Anthropic; разделены одноимённые режим разработки из старой схемы и новое облачное приложение.
+- Обновлены `concepts/ai-agent-orchestration.md`, `concepts/vibe-coding-prepayment-audit.md`, `comparisons/claude-duet-vs-cowork.md` и `index.md`.
