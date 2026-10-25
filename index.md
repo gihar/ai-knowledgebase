@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-10-22 | Всего страниц: 37
+> Последнее обновление: 2026-10-25 | Всего страниц: 37
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -51,6 +51,7 @@
 - [[hermes-cron-failures-2026-08-05]] — снимок шести неуспешных запусков Hermes Cron, их общего сбоя авторизации Codex и приоритета восстановления.
 
 ## Исходники
+- [agent-skills-linux-foundation-best-practices-forwarded-2026-10-25](raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md) — полный пересланный текст о передаче Agent Skills фонду, шесть правил и промпт для Claude Code; хронология стандарта уточнена в [[agent-skills]].
 - [agent-looping-open-closed-fleet-2026-06-09](raw/articles/agent-looping-open-closed-fleet-2026-06-09.md) — пересланная заметка и схемы о single-agent/fleet agent looping, open/closed loops, стоимости и каталоге готовых loop-сценариев.
 - [ai-agent-orchestration-vs-execution-2026-06-05](raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md) — пересланная заметка и схема о Hermes/OpenClaw как 24/7-оркестраторе и Codex/Claude Code/OpenCode как исполнителях.
 - [anthropic-ant-cli-claude-platform-2026-06-03](raw/articles/anthropic-ant-cli-claude-platform-2026-06-03.md) — пересланный пост об ant CLI для Claude Platform, OAuth-авторизации, API-подкомандах и Claude Managed Agents.

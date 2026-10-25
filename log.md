@@ -241,3 +241,8 @@
 - Приложенные видео и схема сохранены в `raw/assets/`; созданы `entities/claude-duet-agent.md` и `concepts/first-user-agent-qa.md`.
 - Проверены ключевые сведения об ограничениях Claude Duet по страницам Anthropic; разделены одноимённые режим разработки из старой схемы и новое облачное приложение.
 - Обновлены `concepts/ai-agent-orchestration.md`, `concepts/vibe-coding-prepayment-audit.md`, `comparisons/claude-duet-vs-cowork.md` и `index.md`.
+
+## [2026-10-25] ingest | Agent Skills и руководство по созданию скиллов
+- Полное пользовательское сообщение, шесть правил и промпт для Claude Code сохранены без исполнения в `raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md`; SHA256 тела указан во frontmatter.
+- Обновлена `concepts/agent-skills.md`: сверены сообщение Anthropic, руководство и спецификация; уточнено различие запуска продукта в октябре 2025-го и публикации стандарта в декабре 2025-го.
+- Обновлён `index.md`.

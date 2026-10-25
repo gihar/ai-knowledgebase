@@ -1,10 +1,10 @@
 ---
 title: Скиллы для AI-агентов
 created: 2026-08-18
-updated: 2026-10-11
+updated: 2026-10-25
 type: concept
 tags: [agent, tool-use, workflow, automation, mcp, ai-engineering, devtools, architecture-pattern]
-sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md, raw/articles/repo2video-readme-2026-10-11.md, raw/articles/motion-design-15-repos-forwarded-2026-10-11.md]
+sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md, raw/articles/repo2video-readme-2026-10-11.md, raw/articles/motion-design-15-repos-forwarded-2026-10-11.md, raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md]
 confidence: medium
 ---
 
@@ -37,6 +37,14 @@ confidence: medium
 5. Выдать ровно необходимые разрешения и инструменты; не добавлять широкий доступ без причины.
 6. Каждое повторившееся замечание к результату переносить в файл скилла, а не оставлять только в диалоге.
 7. Для сложных процессов разделять один большой скилл на несколько узких, которые можно переиспользовать и вызывать друг из друга.
+
+### Новое руководство Agent Skills и передача стандарта
+
+В [сообщении Anthropic от 22.10.2026](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation) сказано, что стандарт Agent Skills передан **Agentic AI Foundation (AAIF)** под эгидой Linux Foundation, как ранее MCP. Anthropic сообщает о миллионе опубликованных скиллов, почти 280 млн установок и интеграции более чем с 70 агентными платформами, включая ChatGPT, Cursor, GitHub Copilot и VS Code. Это **заявленные Anthropic показатели на дату сообщения**, не независимый аудит и не постоянные величины. Уточнение к пересланному тексту: продуктовые Agent Skills запущены в октябре 2025 года, а открытый межплатформенный стандарт опубликован в **декабре 2025-го**, не в октябре. ^[raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md]
+
+[Официальное руководство по созданию скиллов](https://agentskills.io/skill-creation/best-practices) поддерживает практику извлечения скилла из реально выполненной задачи и исправлений пользователя, отсечения очевидного, явных значений по умолчанию, точных шагов для хрупких операций и раздела конкретных `gotchas`. [Спецификация](https://agentskills.io/specification) ограничивает `description` 1024 символами, рекомендует держать `SKILL.md` короче 500 строк (руководство также называет ориентир 5000 токенов), а название — строчные латинские буквы, цифры и дефисы с совпадением имени папки. Эти границы не означают, что любой созданный скилл уже качественный: качество проверяется на реальных задачах. ^[raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md]
+
+Полный пользовательский текст с шестью правилами и **готовым промптом для Claude Code** сохранён отдельно: [пересланное сообщение](../raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md). Пункт о 2–3 сценариях в `evals/evals.json` — часть предложенного промпта и [рекомендаций по оценке](https://agentskills.io/skill-creation/evaluating-skills), а не утверждение, что тесты конкретного скилла уже проведены. ^[raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md]
 
 ## Безопасность готовых скиллов
 
