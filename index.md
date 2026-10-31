@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-10-25 | Всего страниц: 37
+> Последнее обновление: 2026-10-31 | Всего страниц: 38
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -31,6 +31,7 @@
 - [[agentic-coding-workflows]] — рабочие процессы агентов для разработки: инспекция кода, тесты, диагностика, исправления и контролируемая sandbox-автоматизация.
 - [[agentic-frontend-stack]] — interface/protocol слой для agent-native приложений: AG-UI, shared state, frontend tools, human-in-the-loop, threads, inspector и generative UI.
 - [[ai-engineering]] — интеграция AI-систем и AI-сгенерированных артефактов в поддерживаемые рабочие процессы разработки.
+- [[ai-frontend-design-skills]] — пять дизайн-скиллов для AI-агентов: Impeccable, Taste Skill, unslop, Hallmark и AI Design Skills; назначение, ограничения и выбор по задаче.
 - [[ai-motion-design]] — карта 15 GitHub-проектов по задачам: ролик запуска, монтаж своего видео, короткая анимация или анимация сайта.
 - [[github-issue-triage]] — значение triage в GitHub Issues: первичный разбор, классификация и маршрутизация тикетов.
 - [[ai-video-dubbing]] — workflow автоматической переозвучки видео: субтитры/ASR, локальная TTS, voice cloning, тайминги и сборка через ffmpeg.
@@ -51,6 +52,11 @@
 - [[hermes-cron-failures-2026-08-05]] — снимок шести неуспешных запусков Hermes Cron, их общего сбоя авторизации Codex и приоритета восстановления.
 
 ## Исходники
+- [ai-design-skills-readme-2026-10-31](raw/articles/ai-design-skills-readme-2026-10-31.md) — README elayadesign/ai-design-skills (срез по коммиту): структура, установка и назначение `landing-page-design`.
+- [hallmark-readme-2026-10-31](raw/articles/hallmark-readme-2026-10-31.md) — README Nutlope/hallmark: темы, правила качества, browser-lint и установка.
+- [impeccable-readme-2026-10-31](raw/articles/impeccable-readme-2026-10-31.md) — README pbakaus/impeccable: команды, детекторы, контекст продукта и поддерживаемые агенты.
+- [taste-skill-readme-2026-10-31](raw/articles/taste-skill-readme-2026-10-31.md) — README Leonxlnx/taste-skill: арт-дирекшн, изображения и браузерная проверка.
+- [unslop-readme-2026-10-31](raw/articles/unslop-readme-2026-10-31.md) — README heydamir/unslop: этапы переработки UI и лицензия CC BY 4.0.
 - [agent-skills-linux-foundation-best-practices-forwarded-2026-10-25](raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md) — полный пересланный текст о передаче Agent Skills фонду, шесть правил и промпт для Claude Code; хронология стандарта уточнена в [[agent-skills]].
 - [agent-looping-open-closed-fleet-2026-06-09](raw/articles/agent-looping-open-closed-fleet-2026-06-09.md) — пересланная заметка и схемы о single-agent/fleet agent looping, open/closed loops, стоимости и каталоге готовых loop-сценариев.
 - [ai-agent-orchestration-vs-execution-2026-06-05](raw/articles/ai-agent-orchestration-vs-execution-2026-06-05.md) — пересланная заметка и схема о Hermes/OpenClaw как 24/7-оркестраторе и Codex/Claude Code/OpenCode как исполнителях.

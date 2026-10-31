@@ -1,7 +1,7 @@
 ---
 title: Скиллы для AI-агентов
 created: 2026-08-18
-updated: 2026-10-25
+updated: 2026-10-31
 type: concept
 tags: [agent, tool-use, workflow, automation, mcp, ai-engineering, devtools, architecture-pattern]
 sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md, raw/articles/repo2video-readme-2026-10-11.md, raw/articles/motion-design-15-repos-forwarded-2026-10-11.md, raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md]
@@ -68,6 +68,8 @@ confidence: medium
 
 Подборка полезна как каталог направлений для поиска и как источник идей для собственных скиллов. Названия, заявленные возможности, версии и безопасность конкретных репозиториев в пересланном материале отдельно не проверялись; перед установкой нужно изучить `SKILL.md`, код, разрешения, сетевые обращения и лицензию. Полный исходный текст и новая иллюстрация сохранены в [[raw/articles/ready-agent-skills-catalog-2026-08-29]], предыдущая редакция — в [[raw/articles/ready-agent-skills-list-2026-08-21]].
 
+Пять конкретных дизайн-скиллов проверены по README и файлам скиллов на 31.10.2026: [[ai-frontend-design-skills|Impeccable, Taste Skill, unslop, Hallmark и AI Design Skills]]. На этой странице отдельно отмечены роли (аудит, редизайн, новая страница), зависимости и ограничения; в частности, README Impeccable теперь говорит о 62 детерминированных правилах вместо 58 из старой пересланной подборки.
+
 Отдельный пример медиа-скилла — [[repo2video]]: Claude Code анализирует GitHub-проект и пишет сценарий, а отдельный движок формирует видеопояснение архитектуры и кода с озвучкой. Описание изучено, но рендер не проверялся.
 
 Подборка [[ai-motion-design]] группирует 15 репозиториев по результату: монтаж, ролик запуска, короткая анимация или анимация сайта. Не все позиции являются скиллами; часть — библиотеки и движки. ^[raw/articles/motion-design-15-repos-forwarded-2026-10-11.md]
@@ -93,3 +95,4 @@ confidence: medium
 - [[claude-code]]
 - [[repo2video]]
 - [[ai-motion-design]]
+- [[ai-frontend-design-skills]]
