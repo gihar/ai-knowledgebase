@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-10-31 | Всего страниц: 38
+> Последнее обновление: 2026-10-31 | Всего страниц: 40
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -14,7 +14,9 @@
 - [[fish-speech]] — open-source TTS/voice-cloning модель Fish Audio для локальной генерации речи, русского voice cloning и CLI-переозвучки видео.
 - [[lift]] — open-source 9B vision-модель Datalab для извлечения структурированного JSON из PDF/изображений по JSON Schema.
 - [[llm-checker]] — CLI-утилита для анализа локального железа и рекомендаций LLM под задачи вроде coding, reasoning и multimodal.
+- [[ollama]] — инструмент для локального запуска моделей; релиз 0.24 (по источнику) добавляет поддержку настольного OpenAI Codex App.
 - [[opencode]] — open-source, provider-agnostic AI coding agent для автономной разработки через CLI/TUI.
+- [[openai-codex-app]] — настольное приложение OpenAI для параллельной работы над потоками Codex с деревом задач, Git, встроенным браузером и режимом обзора.
 - [[openai-codex-python-sdk]] — заявленный Python SDK для встраивания сессий Codex, шагов агента, потоковых обновлений, изображений и управления sandbox в Python-приложения.
 - [[open-minis]] — open-source основа для мобильного AI-агента на iOS и Android: shell, браузер, Skills, память и доступ к возможностям смартфона.
 - [[revealjs]] — открытый HTML-фреймворк для презентаций, полезный для поддерживаемых слайдов, сгенерированных с помощью AI.
@@ -74,6 +76,7 @@
 - [fish-speech-local-russian-voice-cloning-2026-06-14](raw/articles/fish-speech-local-russian-voice-cloning-2026-06-14.md) — заметка о Fish Speech как локальной open-source TTS/voice-cloning модели для русского языка и будущей CLI-переозвучки видео через Codex skill.
 - [first-users-agent-qa-forwarded-2026-10-22](raw/articles/first-users-agent-qa-forwarded-2026-10-22.md) — полный промпт и схема проверки продукта четырьмя новыми пользователями до и после исправлений.
 - [datalab-lift-document-structured-extraction-2026-06-20](raw/articles/datalab-lift-document-structured-extraction-2026-06-20.md) — пересланная заметка и видео о Lift, 9B open-source модели Datalab для structured extraction из документов по JSON Schema.
+- [ollama-0.24-codex-app-2026-06-03](raw/articles/ollama-0.24-codex-app-2026-06-03.md) — клиппинг анонса Ollama 0.24 с поддержкой настольного OpenAI Codex App (дерево задач, Git, встроенный браузер, режим обзора) и рекомендациями моделей.
 - [openai-codex-python-sdk-2026-06-02](raw/articles/openai-codex-python-sdk-2026-06-02.md) — пересланный пост с утверждением, что OpenAI выпустила Python SDK для Codex с сессиями, потоковыми обновлениями, изображениями и управлением sandbox.
 - [open-minis-mobile-ai-agent-2026-07-28](raw/articles/open-minis-mobile-ai-agent-2026-07-28.md) — пересланная заметка об Open Minis: open-source приложении для iOS/Android с shell, браузером, Skills, памятью и доступом к функциям смартфона.
 - [revealjs-maintainable-ai-generated-presentations-2026-06-02](raw/articles/revealjs-maintainable-ai-generated-presentations-2026-06-02.md) — пересланный пост о том, почему Reveal.js лучше AI-инструментов дизайна для поддерживаемых презентаций.

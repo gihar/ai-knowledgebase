@@ -251,3 +251,16 @@
 - Сохранены README Impeccable, Taste Skill, unslop, Hallmark и AI Design Skills по фиксированным коммитам в `raw/articles/*-readme-2026-10-31.md`; SHA256 тела каждого из пяти исходников проверен.
 - Создана `concepts/ai-frontend-design-skills.md`: различия между аудитом, редизайном и созданием нового UI, требования к браузерной проверке, зависимости, лицензии и оговорки о непроверенной работе на реальном приложении.
 - Обновлены `concepts/agent-skills.md` и `index.md`; проверены 38 страниц, wikilinks новой страницы и разрешённые теги.
+
+## [2026-06-03] lint | Полная проверка базы
+- Проверены: целостность wikilinks, минимум исходящих ссылок, теги по таксономии, sha256 raw-исходников, image embeds, синхронизация index.md и log.md.
+- PASS: 5/5 wikilinks резолвятся; все страницы имеют ≥2 ссылки; все теги из таксономии; sha256 двух ingest-исходников совпадают; все referenced image-ассеты на месте.
+- FAIL: `raw/articles/Ollama 0.24 ... .md` — не-ingest-orphan: имя файла нарушает соглашение (пробелы/заглавные/спецсимволы), frontmatter формата clippings вместо `source_url/ingested/sha256`, отсутствует в `index.md` и в логе ingest, нет wiki-страницы.
+- WARN: `index.md` шапка устарела (дата 2026-06-02, раздел «Источники» не содержит 3-й raw-исходник); `log.md` ссылается на старый путь `/home/user/ai-knowledgebase`.
+
+## [2026-06-03] ingest | Ollama 0.24 с поддержкой OpenAI Codex App
+- Нормализован orphan-исходник: переименован в `raw/articles/ollama-0.24-codex-app-2026-06-03.md` (lowercase-hyphen), старый файл с пробелами/спецсимволами удален.
+- Frontmatter приведен к raw/-схеме: `source_url` (gmail-клиппинг), `ingested: 2026-06-03`, `sha256` посчитан по телу — тело источника сохранено без изменений.
+- Создан `entities/openai-codex-app.md` (confidence low).
+- Создан `entities/ollama.md` (confidence low; имена/версии моделей помечены как непроверенные цитаты).
+- Обновлен `index.md`: добавлены две сущности и raw-исходник, шапка → 2026-06-03, всего страниц 5 → 7.
