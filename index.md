@@ -2,7 +2,7 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-10-31 | Всего страниц: 40
+> Последнее обновление: 2026-11-04 | Всего страниц: 41
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
@@ -11,6 +11,7 @@
 - [[claude-code]] — coding-agent CLI/TUI от Anthropic; Dynamic Workflows переносят оркестрацию субагентов в исполняемые скрипты со structured outputs.
 - [[claude-duet-agent]] — проактивное облачное приложение Anthropic на Opus 5.5: превью для US Pro/Max, лимиты, коннекторы, контроль действий и отличия от Dots.
 - [[copilotkit]] — open-source frontend stack для AI-агентов: AG-UI, shared state, frontend tools, generative/headless UI, persistent threads и Inspector.
+- [[cyber-security-skills]] — девять скиллов serejaris/cyber для разрешённого аудита хостов, веб-сервисов, секретов и проверки признаков взлома; без установки и запуска.
 - [[fish-speech]] — open-source TTS/voice-cloning модель Fish Audio для локальной генерации речи, русского voice cloning и CLI-переозвучки видео.
 - [[lift]] — open-source 9B vision-модель Datalab для извлечения структурированного JSON из PDF/изображений по JSON Schema.
 - [[llm-checker]] — CLI-утилита для анализа локального железа и рекомендаций LLM под задачи вроде coding, reasoning и multimodal.
@@ -54,6 +55,7 @@
 - [[hermes-cron-failures-2026-08-05]] — снимок шести неуспешных запусков Hermes Cron, их общего сбоя авторизации Codex и приоритета восстановления.
 
 ## Исходники
+- [cyber-security-skills-readme-2026-11-04](raw/articles/cyber-security-skills-readme-2026-11-04.md) — README serejaris/cyber по фиксированному коммиту: назначение девяти скиллов, условия авторизации, установка и лицензия.
 - [ai-design-skills-readme-2026-10-31](raw/articles/ai-design-skills-readme-2026-10-31.md) — README elayadesign/ai-design-skills (срез по коммиту): структура, установка и назначение `landing-page-design`.
 - [hallmark-readme-2026-10-31](raw/articles/hallmark-readme-2026-10-31.md) — README Nutlope/hallmark: темы, правила качества, browser-lint и установка.
 - [impeccable-readme-2026-10-31](raw/articles/impeccable-readme-2026-10-31.md) — README pbakaus/impeccable: команды, детекторы, контекст продукта и поддерживаемые агенты.

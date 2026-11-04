@@ -1,10 +1,10 @@
 ---
 title: Скиллы для AI-агентов
 created: 2026-08-18
-updated: 2026-10-31
+updated: 2026-11-04
 type: concept
 tags: [agent, tool-use, workflow, automation, mcp, ai-engineering, devtools, architecture-pattern]
-sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md, raw/articles/repo2video-readme-2026-10-11.md, raw/articles/motion-design-15-repos-forwarded-2026-10-11.md, raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md]
+sources: [raw/articles/vc-skills-for-ai-agents-2026-08-18.md, raw/articles/ready-agent-skills-list-2026-08-21.md, raw/articles/ready-agent-skills-catalog-2026-08-29.md, raw/articles/repo2video-readme-2026-10-11.md, raw/articles/motion-design-15-repos-forwarded-2026-10-11.md, raw/articles/agent-skills-linux-foundation-best-practices-forwarded-2026-10-25.md, raw/articles/cyber-security-skills-readme-2026-11-04.md]
 confidence: medium
 ---
 
@@ -52,6 +52,8 @@ confidence: medium
 
 Практически безопаснее сначала использовать скилл разово, затем устанавливать его только после проверки и подтверждения пользы.
 
+[[cyber-security-skills|Коллекция cyber]] — пример девяти скиллов для аудита собственных или разрешённых хостов, веб-сервисов, репозиториев и секретов. Её README отдельно требует разрешения на проверку, ограничивает активные тесты и оставляет человеку проверку находок; каталог сохранён, но скиллы не устанавливались и не исполнялись. ^[raw/articles/cyber-security-skills-readme-2026-11-04.md]
+
 ## Каталог готовых скиллов
 
 Обновлённая пересланная подборка группирует готовые скиллы по семи направлениям:
@@ -87,6 +89,8 @@ confidence: medium
 - Сложные интеграции разумнее брать готовыми, а простые процедуры адаптировать под собственные папки, форматы и правила.
 
 ## Связанные страницы
+
+- [[cyber-security-skills]]
 
 - [[agent-abstraction-levels]]
 - [[agentic-coding-workflows]]

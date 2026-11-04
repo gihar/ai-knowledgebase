@@ -264,3 +264,8 @@
 - Создан `entities/openai-codex-app.md` (confidence low).
 - Создан `entities/ollama.md` (confidence low; имена/версии моделей помечены как непроверенные цитаты).
 - Обновлен `index.md`: добавлены две сущности и raw-исходник, шапка → 2026-06-03, всего страниц 5 → 7.
+
+## [2026-11-04] ingest | serejaris/cyber security skills
+- Сохранён README по фиксированному коммиту `76e214a` в `raw/articles/cyber-security-skills-readme-2026-11-04.md`; SHA256 тела проверен.
+- Создана `entities/cyber-security-skills.md` с каталогом девяти скиллов и границами разрешённого применения; установка и запуск не выполнялись.
+- Обновлены `concepts/agent-skills.md` и `index.md`.
