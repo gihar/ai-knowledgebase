@@ -2,11 +2,12 @@
 
 > Каталог контента. Каждая wiki-страница перечислена в разделе своего типа с кратким описанием.
 > Начинай отсюда, чтобы найти релевантные страницы для любого запроса.
-> Последнее обновление: 2026-11-04 | Всего страниц: 41
+> Последнее обновление: 2026-11-10 | Всего страниц: 42
 
 ## Сущности
 <!-- Внутри раздела — по алфавиту -->
 - [[ant-cli]] — CLI для Claude Platform: вызовы API-ресурсов, OAuth, shell/YAML workflows и управление Claude Managed Agents из Git/CI.
+- [[astryx]] — открытая дизайн-система Meta для React и coding-агентов: компоненты, темы, шаблоны, CLI и оговорка о бета-статусе.
 - [[awesome-free-llm-apis]] — справочник permanently free LLM API с лимитами, OpenAI SDK compatibility, SDK, speed tiers и caveat по неподтверждённым соцсетевым метрикам.
 - [[claude-code]] — coding-agent CLI/TUI от Anthropic; Dynamic Workflows переносят оркестрацию субагентов в исполняемые скрипты со structured outputs.
 - [[claude-duet-agent]] — проактивное облачное приложение Anthropic на Opus 5.5: превью для US Pro/Max, лимиты, коннекторы, контроль действий и отличия от Dots.
@@ -55,6 +56,8 @@
 - [[hermes-cron-failures-2026-08-05]] — снимок шести неуспешных запусков Hermes Cron, их общего сбоя авторизации Codex и приоритета восстановления.
 
 ## Исходники
+- [astryx-forwarded-2026-11-10](raw/articles/astryx-forwarded-2026-11-10.md) — пересланная заметка об Astryx и видеодемонстрация; число компонентов сопоставлено с официальным README в статье-сущности.
+- [astryx-readme-2026-11-10](raw/articles/astryx-readme-2026-11-10.md) — официальный README Meta/Astryx по фиксированному коммиту: архитектура, компоненты, темы, CLI, beta и лицензия MIT.
 - [cyber-security-skills-readme-2026-11-04](raw/articles/cyber-security-skills-readme-2026-11-04.md) — README serejaris/cyber по фиксированному коммиту: назначение девяти скиллов, условия авторизации, установка и лицензия.
 - [ai-design-skills-readme-2026-10-31](raw/articles/ai-design-skills-readme-2026-10-31.md) — README elayadesign/ai-design-skills (срез по коммиту): структура, установка и назначение `landing-page-design`.
 - [hallmark-readme-2026-10-31](raw/articles/hallmark-readme-2026-10-31.md) — README Nutlope/hallmark: темы, правила качества, browser-lint и установка.

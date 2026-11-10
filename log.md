@@ -269,3 +269,8 @@
 - Сохранён README по фиксированному коммиту `76e214a` в `raw/articles/cyber-security-skills-readme-2026-11-04.md`; SHA256 тела проверен.
 - Создана `entities/cyber-security-skills.md` с каталогом девяти скиллов и границами разрешённого применения; установка и запуск не выполнялись.
 - Обновлены `concepts/agent-skills.md` и `index.md`.
+
+## [2026-11-10] ingest | Astryx от Meta
+- Сохранены пересланное сообщение в `raw/articles/astryx-forwarded-2026-11-10.md`, видеодемонстрация в `raw/assets/astryx-demo-2026-11-10.mp4` и официальный README по фиксированному коммиту `8bc7850` в `raw/articles/astryx-readme-2026-11-10.md`; SHA256 тел источников зафиксированы.
+- Создана `entities/astryx.md`: указаны бета-статус, назначение для людей и coding-агентов и расхождение «170+» в сообщении против «150+» в README.
+- Обновлены `concepts/agentic-frontend-stack.md` и `index.md`.
