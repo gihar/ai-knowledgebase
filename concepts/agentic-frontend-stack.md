@@ -1,10 +1,10 @@
 ---
 title: Agentic frontend stack
 created: 2026-06-26
-updated: 2026-11-10
+updated: 2026-11-14
 type: concept
 tags: [agent, tool-use, workflow, ai-engineering, architecture-pattern, devtools]
-sources: [raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md, raw/articles/astryx-readme-2026-11-10.md]
+sources: [raw/articles/copilotkit-frontend-stack-for-ai-agents-2026-05-20.md, raw/articles/astryx-readme-2026-11-10.md, raw/articles/openai-apps-sdk-ui-readme-2026-11-14.md]
 confidence: medium
 ---
 
@@ -51,6 +51,8 @@ Agentic frontend stack — часть [[ai-engineering]], потому что п
 Он также связан с [[dynamic-workflows]] и [[agentic-coding-workflows]]: долгие runs, tool loops и multi-agent orchestration становятся понятнее пользователю, если события и state имеют явный UI/protocol слой.
 
 [[astryx]] — пример отдельного слоя дизайн-системы для компонентов интерфейса и согласованных API, пригодных в том числе для coding-агентов. Он дополняет, но не заменяет protocol/runtime, shared state и human-in-the-loop слой агентного фронтенда.
+
+[[openai-apps-sdk-ui]] — специализированная библиотека компонентов и токенов для приложений внутри ChatGPT. Она тоже решает задачу визуальной согласованности, но не заменяет Apps SDK, agent/backend-интеграцию или управление состоянием приложения.
 
 ## Открытые вопросы
 
